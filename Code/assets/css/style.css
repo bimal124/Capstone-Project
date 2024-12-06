@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+
+body{  font-size:14px; color:#888; font-family:'Georgia', sans-serif; background:rgb(250, 250, 250);}
+html { scroll-behavior: smooth;}
+
+a{color:#5f8fb4;}
+img{ max-width: 100%; }
+h2,h3,h4,h5,h6, .navbar-light .navbar-nav{font-family: 'Bodoni Moda', serif; color:#5f8fb4; font-weight:800; }
+.fc-blue{ color:#5f8fb4;  }
+.fc-italic{ font-style: italic; }
+.fs-large{ font-size:18px; }
+
+/*Header*/
+header{padding-top: 80px;  }
+.navbar{ background: #FFF; box-shadow: 0 2px 3px rgb(204 204 204 / 40%); }
+.navbar-light .navbar-nav .nav-link{ font-weight:700; color:#5f8fb4; padding:0; padding-left:30px; }
+.navbar-light .navbar-nav .nav-link svg{ color:#ffb400; margin-left: -2px;     width: 12px;  };
+/*Banner*/
+.mainB img{}
+.testimonial{font-size: 24px; line-height: 40px;}
+
+#TeamM .carousel-indicators li{ width:10px; background:#ccc; height:10px; border-radius:10px; box-shadow:0px 1px 3px #999; }
+#TeamM .carousel-indicators li.active{ background:#FFF; }
+#TeamM .carousel-control-next, #TeamM .carousel-control-prev{ width: auto; }
+#TeamM .carousel-control-next span, #TeamM .carousel-control-prev span{ width:30px; height:30px; background-size: auto;
+ background-color:#EEE; }
+
+.btn-secondary{background:#5f8fb4; border-radius:30px; min-width:180px;}
+.serve .btn{ /*min-width:150px;*/ }
+.inn{ background:#FFF; padding:15px; box-shadow:0 4px 20px 0 rgb(0 0 0 / 10%); }
+.review iframe{ border:0; outline: none; margin-bottom:0px;  }
+/*Footer*/
+footer{ background:#5f8fb4; font-size:16px; color:#FFF; }
+footer a{ color:#FFF; }
+
+/*Other Pages*/
+.blogBg{ border:1px silid rgba(166, 148, 148, 0.24); background: rgb(235, 237, 240) }
+.bookNow .inn{ min-height:215px }
+.bookNow .inn figure{ min-height: 150px; }
+form.inn{ max-width:850px; margin:0 auto; }
+#carouselD{ width: 250px; height: 250px; border-radius:100%; overflow: hidden; margin:30px auto;  }
+#carouselD img{ min-height: 250px; }
+.hr-big{ height:40px; background:#edeff0; border: none; }
+a.row:hover{ text-decoration:none  }
+
+.CommentSec ul{ background:#EEE; padding:0; }
+
+.CommentSec ul li{ margin:0; padding:10px; list-style: none; border-bottom: 1px solid #FFF; }
+.CommentSec ul li b{ min-width: 100px; display: inline-block; }
+.CommentSec ul li i{}
+a.inn{ display: block; margin-bottom:20px; padding:8px; }
+a.inn:hover{ text-decoration: none; background:#5f8fb4; color:#FFF; }
+a.inn p{  margin: 0; }
+a.inn img{ width:100%; }
+
+/*-----CSS For Admin ----*/
+
+.LoginPage .inn{ max-width:400px; margin:6% auto 0; }
+.LoginPage .inn figure{ width:100px; height: 100px; border-radius:100%; overflow: hidden; margin:0 auto 25px; border:3px solid #5f8fb4; }
+.RegisterPage .navbar {box-shadow:none; border: none;}
+
+.sickPop{ background:#f0faff; padding:70px 80px 80px;  width:100%; max-width:480px; border: none; border-radius:0; color:#000;  }
+.sickPop .close{position: absolute;    right:5px;    top:5px;}
+
+.sickPop .form-control{ border: none; background:none; border-bottom:1px solid #000;  border-radius:0; outline: none; box-shadow:none; padding-left:0;   }
+.sickPop label{ margin-bottom:-3px; display: block; }
+.sickPop .btn{ border-radius: 0; }
+.bdr{ border-top: 1px solid #000; line-height: 0}
+.sickPop .btn-info{ background:#3b5998; }
+.bdr span{background: #f0faff;     padding: 0 10px;    display: inline-block;    line-height: 20px;    margin-top: -15px;}
+
+.sickPop .btn svg{ width:18px; margin-right:5px; vertical-align: inherit; }
+
+.shortInput input{ max-width:100px; margin-right:5px; }
+.reportCreaete p b{ 	/*min-width:120px; */	display: inline-block; }
+
+/*.TreatCondition img{ max-height:120px; overflow:hidden; }*/
+.whoWeAre .inn p{ max-height:100px; overflow: hidden; }
+
+
+@media only screen and (max-width:570px){
+footer .col-sm-6{ width:50%; float: left;  }
+.dateList > .col-sm-3{width:25%; float:left;}
+.sickPop{ padding:40px;  }
+.sickPop #googleSigninBtn, #googleSignupBtn{ max-width:320px; margin:0 auto; }
+.sickPop .socialLogin, .sickPop .socialRegister{ text-align:center; }
+}

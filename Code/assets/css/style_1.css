@@ -1,0 +1,1202 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('owl.carousel.css');
+@import url('owl.theme.css');
+@import url('fontface.css');
+html{height:100%; overflow-x: hidden;}
+body{font-family:'OpenSans-Regular'; color:#000; font-weight:400; height:100%; margin:0; font-size:14px; background-color:#f8f8f8;}
+.wrapper {min-height: 100%; width:100%; position: relative;}
+a, a:hover, a:focus{text-decoration:none; outline:0 !important;}
+ul{padding-left:0; list-style-type:none;}
+
+/**-----------------------------Common CSS------------------------*/
+.social, p.btm_txt, .bids_sec .product_list .item a.item_inner, .how_work cite,  .live_auction .product_list a.title, .live_auction .product_list .item small, .toggle_content button span, .detail_inner form .terms cite, .detail_inner form .terms, .row_b .right_sec h6, .row_b .right_sec a, .row_b .right_sec div, .row_b .right_sec a span, .sec_a, .sec_b, .sec_b b, .sec_b strong, .sec_c, .sec_c a, .sec_c a i, .sec_d, .quick_nav ul li, .quick_nav ul li a, .social_log ul li a, .gray_box summary, .gray_box summary p:last-child, .user_info ul li, .contact_info center, .winner_list a.item_inner, .winner_list a.title, .winner_list hgroup, .winner_list b, .winner_list hgroup small, .complete_auc a.item_inner, .complete_auc a.title, .complete_auc hgroup, .complete_auc b, .complete_auc hgroup small, .history_detail ol small, .cr_box h5 span, .ac_sub_ttl, .buy_credit big, .buy_credit .btn_sec button, .form_inner b, .form_inner2 b, .toggle_content form  center, .detail_inner form b {display:block;}
+
+strong, b, strong, table th, .row_b .right_sec h6 span b, .row_b .right_sec a strong, .sec_b b, .sec_b strong, .reg_inner form label{font-weight:normal;}
+.live_auction .product_list .item small, .right_info, .reg_inner h2, .gray_box summary, .modal-order .modal-body .table>tbody>tr>td, .modal-order .modal-body .table>thead>tr>th, .how_work figure{text-align:center !important;}
+.select_filter button em, .detail_inner form .terms cite, .gray_box summary em, .winner_list b em, .complete_auc b em, .signup_sec .check em, .buy_credit big span, .modal-order .modal-body cite, .modal-order .modal-body time, .bid_pramotion span em, .bid_pramotion cite, .product_list .item button.btn-black span em, ol.user_head li:last-child cite{font-style:normal;}
+
+.banner-content form button, .navigation .navbar-nav>li a, .bids_sec h1,  .bids_sec .product_list .item .view_dtl, .bids_sec small, .footer_top h1, .footer_top ul li a, .select_filter button, .toggle_content h5, .select_filter ul.dropdown-menu li a, .dtl_ttl h1, .row_a .right_sec, .detail_inner form .terms, .detail_inner form h5, .row_b .right_sec, .sec_b b, .sec_b strong, .sec_c a, .sec_d .cash_refund, .sec_d .cash_in, .discount span, .description h2, .bid_history h2,  .quick_nav ul li, .dtl_info h2, .disc_inner h4 a, .reg_inner h2, .social_log ul li a, .social_log center, .reg_inner form label, .exit_user form .check span, .gray_box summary, .contact_info h2, .winner_list .view_dtl, .winner_list b span, .winner_list b em, .complete_auc b span, .complete_auc b em, .bids_sec .product_list .item .view_dtl, .winner_list .view_dtl, .complete_auc .view_dtl, .history_inner ul li span:first-child, .signup_sec .check, .ac_form h3, .ac_form label, .check_box em, .cr_box h5, .ac_sub_ttl, .modal-order .modal-header, .modal-order .modal-body h4, .modal-order .modal-body big span, .modal-order .modal-body cite span, .modal-order .modal-body time span, .modal-order .modal-body summary,  .btn_order a, .form_inner b, .form_inner2 b, .detail_inner form center, .bid_pramotion cite{text-transform:uppercase;}
+.live_auction .product_list .item small, .live_auction .product_list .item a.title, .detail_inner form .terms cite, .winner_list a.title, .complete_auc a.title{text-transform:none !important;}
+
+a, button, .contact-sec a, a, .bids_sec .product_list .item a, .winner_list .item a, .complete_auc .item a, input[type=checkbox], input[type=radio]{outline:0 !important;}
+.bids_sec .product_list .item a, .winner_list .item a, .complete_auc .item a{text-decoration:none !important;}
+.social, .detail_inner form .terms cite, .row_b .right_sec a, .buy_credit .btn_sec button, .detail_inner form b{width:100%;}
+.banner-sec, .footer-fix{display:block; width:100%; overflow:hidden;}
+.toggle_content button{line-height:11px !important;}
+.row_a .left_sec, .row_a .right_sec, .row_b .left_sec, .row_b .right_sec{vertical-align:middle;}
+.detail_inner form, .row_b .left_sec summary, .detail_inner, .detail_inner h1, .row_a, .discount, .winner_list b span, .winner_list b em, .complete_auc b span, .complete_auc b em, .history_detail h1{position:relative;}
+.sec_a i{cursor:pointer;}
+
+/**-----------------------------Margin and padding-Sec-------------------------*/
+.bid_pramotion ul, .row_b .right_sec h6{margin:0; padding:0;}
+.detail_inner h1, .description h2, .bid_history h2, .dtl_info h2, .reg_inner h2, .gray_box summary p, .contact_info h2, .winner_list hgroup h5, .complete_auc hgroup ul, .history_detail h1, .history_detail ol, .cr_box h5 {margin:0;}
+.slider-caption h2, .footer_top h1, .filter_banner h2, .row_a .right_sec h2, .detail_inner form h5, .button_sec button{margin-top:0;}
+.slider-caption h2, .bids_sec h1, .bids_sec .product_list .item p, .footer_bottom p, .filter_banner h2, .detail_inner h1, .row_a .right_sec h2, .row_a .right_sec h3, .detail_inner .form_inner, .detail_inner form .terms, .quick_nav ul, .history_detail h1,  .history_inner ul, .modal-order .modal-body summary p, .modal-order .modal-body .table {margin-bottom:0;}
+.bids_sec h1, .row_a .right_sec h3, .detail_inner form .terms cite, .winner_list hgroup h5{margin-top:5px;}
+.toggle_content p{margin-bottom:10px !important;}
+.row_b .right_sec h6, .live_auction .product_list .item a.title,  .ac_sub_ttl{margin-bottom:15px;}
+.product_detail, .product_info, .social_log, .reg_inner {margin-bottom:30px;}
+.detail_inner form b, .detail_inner form center{margin-top:10px;}
+.sec_b ul li{margin-top:11px;}
+.social_head li a i, .bids_sec .product_list .item p, .footer_bottom p, .live_auction .product_list a.title, .winner_list a.title, .complete_auc a.title  .live_auction .product_list .item small, .row_b .right_sec a, .sec_d .cash_refund, .sec_d .cash_in, .modal-order .modal-body table{margin-top:15px;}
+.bids_sec .product_list, .winner_list,  ul.social_head, .guest_right, .complete_auc{margin-top:20px;}
+p.welcome_note{margin-top:10px;}
+.how_work cite, .product_detail, .about_us, .reg_inner, .gray_box summary, .ac_sub_ttl, .buy_credit big, .modal-order .modal-body h4{margin-top:30px;}
+ul.social_head{margin-right:30px;}
+.disc_inner ul, .social_log ul li:last-child {margin-left:15px;}
+
+.bids_sec, .sec_c{padding:30px 0px;}
+.sec_c a{padding:24px 0px;}
+.sec_a, .sec_b{padding:20px 0px;}
+.row_a .left_sec, .row_a .right_sec, .row_b .left_sec, .row_b .right_sec, .contact_info center{padding:15px;}
+.row_a .right_sec{padding:30px 15px;}
+.detail_inner form .form_inner, .detail_inner h1, .description h2, .bid_history h2, .disc_inner, .dtl_info h2, .reg_inner h2, .history_detail h1, .history_detail ol, .row_aa, .row_bb, .detail_inner form .form_inner2{padding:20px;}
+.exit_user form, .new_user .gray_box{padding:55px;}
+.sec_c, .social_log ul li a i{padding-right:11px;}
+.detail_inner h1, .social_log ul li a, .history_detail h1{padding-right:15px;}
+.detail_inner .button_sec{padding-right:20px;}
+.pad_manage, .detail_inner, .row_a .right_sec, .description, .quick_nav, .exit_user, .contact .col-md-4, .history_detail .col-md-10, .history_detail ol, .history_inner .col-md-5, .history_detail {padding-right:0;}
+.detail_inner, .right_info, .bid_history, .dtl_info, .new_user, .history_detail .col-md-10, .history_inner .col-md-7, .history_detail{padding-left:0;}
+.sec_c{padding-left:11px;}
+.social_log ul li a{padding-left:15px;}
+.detail_inner h1, .row_a .left_sec, .history_detail h1, .detail_inner .button_sec{padding-left:20px;}
+.dtl_info h2, .dtl_info .disc_inner, .contact_info center, .row_aa, .row_bb,  .modal-order .modal-body big, .modal-order .modal-body time{padding-left:30px;}
+.sec_c a i, .cr_box mark{padding-bottom:10px;}
+.social_log ul li a,  .form_inner b, .form_inner2 b{padding-bottom:5px;}
+.sec_b, .detail_inner form .form_inner, .detail_inner form .form_inner2{padding-bottom:29px;}
+.detail_inner form .terms{padding-bottom:53px;}
+.social_log ul li a, .cr_box mark, .detail_inner .button_sec{padding-top:10px;}
+.sec_d .cash_refund, .sec_d .cash_in, .social_log center, .dtl_ttl,  .row_a .left_sec{padding-top:25px;}
+.gray_box summary{padding-top:60px;}
+ .user_info ol li.dropdown ul{padding-bottom:0;}
+
+/**-----------------------------Color-Sec-------------------------*/
+.social_head li a, p.welcome_note, .banner_sec #prev, .banner_sec #next{color:#6b6b6d;}
+p.welcome_note a, .bids_sec small span{color:#ed1c24;}
+.navigation .navbar-nav>li a, .sec_b ul li a, .social_log ul li a, .contact_info, .modal-order .modal-body small{color:#000;}
+time h4.bid_timer, time h4.bid_timer em{color:#aab2bd;}
+time h4.bid_timer span{color:#494949;}
+.discount span, .modal-order .modal-body summary, .toggle_content form  center, .detail_inner form center{color:#464646;}
+.slider-caption h2, .filter_banner h2{color:#b9b9b9;}
+.slider-caption h2 span, .slider-caption a.btn-black span, .filter_banner h2 span, .live_auction .product_list .item button.btn-black span, .toggle_content h5 span, .detail_inner form h5 span, .button_sec  button span, .signup_sec .check em, .btn_sec button span, .modal-order .modal-body h4 span{color:#fff;}
+.slider-caption a.btn-black, .live_auction .product_list .item button.btn-black, .button_sec  button, .quick_nav button, .btn_sec button, a.btn_abs{color:#dfdfdf;}
+.quick_nav ul li a, .quick_nav ul li:first-child, .reg_inner h2, .social_log ul li a span, .social_log center, .gray_box summary, .contact_info h2{color:#bcbcbc;}
+.bids_sec h1 span, .footer_top h1 span, .footer_top ul li a span, .footer_bottom p a, .select_filter button em, .dtl_ttl h1 span, .row_a .right_sec h2 span, .row_b .right_sec h6 span b, .sec_a i, .description h2 span, .bid_history h2 span, .quick_nav ul li:first-child span, .quick_nav button span, .dtl_info h2 span, .reg_inner h2 span, .gray_box summary p:last-child span, .contact_info h2 span, .ac_form h3 span, .check_box em span, .cr_box h5 span, .ac_sub_ttl span, a.btn_abs span, .modal-order .modal-header span, .modal-order .modal-body summary span{color:#87B04B;}
+.bids_sec .product_list .item a, .detail_inner h1, .detail_inner .row_a, .detail_inner form, .detail_inner form .form_inner, .winner_list .item a, .winner_list hgroup h5, .complete_auc .item a, .history_detail h1{color:#434a54;}
+.bids_sec .product_list .item .favourite a, .complete_auc .item .favourite a{color:#FF8A65;}
+.footer_top ul li a{color:#93979d;}
+.footer_bottom p, .toggle_content form .terms, .detail_inner form .terms, .sec_b strong, .modal-order .modal-body big span, .modal-order .modal-body cite, .modal-order .modal-body time, .form_inner b, .form_inner2 b{color:#686b6f;}
+.toggle_content p, .toggle_content form .form_inner p, .row_a .left_sec, .detail_inner form p, .detail_inner form .terms cite, .row_b .left_sec summary, .sec_c a, .modal-order .modal-body h3, .modal-order .modal-body p{color:#848484 !important;}
+.row_a .right_sec h2, .detail_inner form h5, .description h2, .bid_history h2, .dtl_info h2, .cr_box h5, .ac_sub_ttl, .modal-order .modal-header, .modal-order .modal-body h4{color:#1f1f1f;}
+.row_a .right_sec h3, .sec_d .cash_refund, .sec_d .cash_in, .disc_inner h3, .disc_inner, .disc_inner article, .disc_inner ul, .buy_credit big{color:#969696;}
+.fg_pw a{color:#c3c3c3;}
+.gray_box summary em{color:#161616;}
+.trans_tbl .table>tbody>tr>td, .trans_tbl .table>thead>tr>td, .modal-order .modal-body big, .modal-order .modal-body .table>tbody>tr>td{color:#000;}
+
+/**-----------------------------Font-Family-Sec-------------------------*/
+.bids_sec small{font-family:'OpenSans-Light';}
+p.welcome_note, time h4.bid_timer em, .bids_sec small span, .bids_sec .product_list .item a, .winner_list .item a, .complete_auc .item a,  .bids_sec .product_list .item p, .how_work cite, .footer_top ul li a, .live_auction .product_list .item small, .toggle_content form .terms, .detail_inner h1, .row_a .left_sec, .detail_inner form p, .detail_inner form .terms cite, .row_b .left_sec summary, .sec_c a, .row_a .id, .disc_inner article, .disc_inner ul, .reg_inner form label, .fg_pw a, .gray_box summary p:last-child, .winner_list hgroup, .winner_list hgroup small, .complete_auc hgroup, .complete_auc hgroup small, .complete_auc hgroup .id, .history_detail h1, .history_detail ol small, .ac_form .form-control, .trans_tbl .table>tbody>tr>td, .trans_tbl .table>thead>tr>td, .buy_credit big, .modal-order .modal-body p, .modal-order .modal-body big, .modal-order .modal-body .table>tbody>tr>td, .toggle_content form  center, .bid_pramotion span em {font-family:'OpenSans-Regular';}
+p.welcome_note a, .navigation .navbar-nav>li, .banner_sec .pager a, .bids_sec .product_list .item .view_dtl, .winner_list .view_dtl, .complete_auc .view_dtl, .footer_top ul li a span, .footer_bottom p a, .select_filter ul.dropdown-menu li a, .bid_pramotion span, .disc_inner h3, .quick_nav ul li a, .social_log center, .gray_box summary, .gray_box summary p:last-child span, .ol.user_head,  ol.user_head li a, ol.user_head li:last-child, .cr_box mark, .buy_credit big span, .modal-order .modal-body h3, .modal-order .modal-body big span, .modal-order .modal-body cite span, .modal-order .modal-body time span, .modal-order .modal-body .table>tbody>tr:last-child>td, .modal-order .modal-body .table>thead>tr>th, .modal-order .modal-body summary span, .bid_pramotion cite{font-family:'OpenSans-Bold';}
+ .select_filter button, .toggle_content form .terms b, .detail_inner form .terms, .sec_b b, .sec_b strong, .sec_d .cash_refund, .sec_d .cash_in, .discount span, .disc_inner h4 a, .social_log ul li a, ol.user_head span, .popover-title, .history_inner ul li span:first-child,  .ac_form label, .check_box em, .trans_tbl .table>tbody>tr>th, .trans_tbl .table>thead>tr>th, .modal-order .modal-body summary, .form_inner b, .form_inner2 b, .toggle_content form  center span, .detail_inner form center{font-family:'OpenSans-Semibold';}
+time h4.bid_timer, .bids_sec .product_list .item .price, .toggle_content form .form-control, .row_a .right_sec h3, .form-control, .row_b .right_sec h6 span, .product_detail .price, .winner_list b em, .complete_auc b em, .history_inner ul li span:last-child, .cr_box mark span{font-family:'AnonymousPro-Bold';}
+.slider-caption h2, .slider-caption a.btn-black, .bids_sec h1, .footer_top h1, .filter_banner h2, .live_auction .product_list .item button.btn-black, .toggle_content h5, .dtl_ttl h1, .row_a .right_sec h2, .detail_inner form h5, .button_sec  button, .row_b .right_sec h6 span:first-child, .row_b .right_sec a, .description h2, .bid_history h2, .quick_nav ul li:first-child, .quick_nav button, .dtl_info h2, .reg_inner h2, .contact_info h2, .winner_list span, .complete_auc span,  .history_inner ul li:first-child span:first-child, .ac_form h3, .btn_sec button, .cr_box h5, .ac_sub_ttl, a.btn_abs, .modal-order .modal-header, .modal-order .modal-body h4,  .btn_order a{font-family:'EurostileTBlaExt';}
+
+/**-----------------------------Font-Size-Sec-------------------------*/
+.social_head li a, .cr_box mark span{font-size:30px;}
+.sec_c a i, .social_log ul li a i, .social_log center, .gray_box summary p:last-child{font-size:24px;}
+.sec_b ul li a i, .buy_credit big, .bid_pramotion cite{font-size:20px;}
+.bids_sec h1, .bids_sec .product_list .item .price,  .bids_sec .product_list .item .view_dtl i, .winner_list .view_dtl i, .complete_auc .view_dtl i,  .dtl_ttl h1, .row_a .right_sec h3, .row_b .right_sec a i, .sec_a i, .sec_b ul li a, .sec_b b, .disc_inner h3, .gray_box summary, .product_detail .price, .winner_list b em, .complete_auc b em, .cr_box mark, .modal-order .modal-header{font-size:18px;}
+.detail_inner h1, .description h2, .bid_history h2, .dtl_info h2, .reg_inner h2, .history_detail h1, .cr_box h5, .modal-order .modal-body h3{font-size:16px;}
+.navigation .navbar-nav>li a, .quick_nav ul li:first-child, .contact_info h2, .history_inner ul li span:last-child,  .bid_pramotion span{font-size:12px;}
+.slider-caption a.btn-black, .footer_top h1, .live_auction .product_list .item button.btn-black, .detail_inner form h5, .button_sec  button, .row_b .right_sec h6 span, .quick_nav button, .winner_list hgroup h5, .ac_form h3, .ac_sub_ttl, .modal-order .modal-body .table>thead>tr>th{font-size:14px;}
+.slider-caption h2, .filter_banner h2, .select_filter ul.dropdown-menu li a, .quick_nav ul li a, .winner_list span, .complete_auc span, .history_inner ul li:first-child span:first-child, .ac_form .form-control, .form_inner b, .form_inner2 b, .row_a .right_sec h2, .bid_pramotion li:first-child cite{font-size:13px;}
+.how_work cite, .footer_top ul li a, .footer_bottom p, .select_filter button, .detail_inner form .terms, .disc_inner article, .disc_inner ul, .disc_inner h4 a, .social_log ul li a, .reg_inner form label, .exit_user form .check span, .signup_sec .check, .modal-order .modal-body h4, .modal-order .modal-body big, .modal-order .modal-body cite, .modal-order .modal-body time, .bid_pramotion span em{font-size:12px;}
+.bids_sec small, .toggle_content h5, .toggle_content form .terms, .sec_b strong, .fg_pw a, .ac_form label, .trans_tbl .table>tbody>tr>th, .trans_tbl .table>thead>tr>th{font-size:11px;}
+p.welcome_note,  .bids_sec .product_list .item .view_dtl, .winner_list .view_dtl, .complete_auc .view_dtl, .live_auction .product_list .item small, .toggle_content p, .row_a .left_sec, .detail_inner form p, .detail_inner form .terms cite, .row_b .left_sec summary, .row_b .right_sec h6 span:first-child, .row_a .id, .discount span, ol.user_head li a, .winner_list hgroup small, .complete_auc hgroup small, .complete_auc hgroup .id, .history_detail ol .id, .history_detail ol small, .history_inner ul li span:first-child, .check_box em, .trans_tbl .table>tbody>tr>td, .trans_tbl .table>thead>tr>td, .modal-order .modal-body p, .modal-order .modal-body small, .modal-order .modal-body .table>tbody>tr>td, .toggle_content form  center, ol.user_head li:last-child small{font-size:10px;}
+.row_b .right_sec a, .sec_c a, .sec_d .cash_refund, .sec_d .cash_in,  .btn_order a, .detail_inner form center{font-size:8px;}
+
+
+/*----------------------Header and Nav---Css-----------------------------------*/
+header{background:#fdfdfd; padding:20px 0px; -webkit-transition-duration: .5s; transition-duration: .5s;}
+header a.logo{max-height:110px; margin-bottom:10px; max-width:100%; display:inline-block;}
+
+header a.logo img{max-height:105px; max-width:100%;}
+ul.social_head, .guest_right, ul.social_head li, .complete_auc hgroup ul li, .cr_box h5, .cr_box mark, .trans_tbl ol li, .modal-order .modal-body small, .modal-order .modal-body big, .modal-order .modal-body cite, .modal-order .modal-body time, .modal-order .modal-body summary,  .btn_order a ,  .btn_order button, span.help_info, span.help_info i{display:inline-block; position:relative;}
+ul.social_head li:last-child{padding-left:15px;}
+p.welcome_note{padding-right:15px;}
+.navigation{border-radius:0; margin-bottom:0;}
+.navigation .navbar-nav{width:100%;}
+.navigation .navbar-nav>li{position:relative; text-align:center; padding:10px 5px; border-width: 0 1px;}
+.navigation .navbar-nav>li:before,
+.navigation .navbar-nav>li:last-child:after {content: ""; position: absolute; top: 0; width: 2px; height: 100%;}
+.navigation .navbar-nav>li:before {left: 0; }
+.navigation .navbar-nav>li:after {right: 0; }
+.navigation .navbar-nav>li:before,
+.navigation .navbar-nav>li:last-child:after {}
+h3.nav_toggle_ttl{display:none; margin:0; padding-left:15px; padding-top:10px; color:#fff;}
+
+.navigation .nav>li>a:focus{background-color:#88B04B; color:#fff;}
+.navigation .nav>li.active>a:focus, .navigation .nav>li>a:hover, .navigation .nav>li.active>a, .navigation .nav>li.active>a:hover{background-color:#88B04B; color:#fff; border-radius:0px;}  
+.navigation .navbar-nav>li a{padding:4px 6px; display:inline-block; position:relative;}
+.navigation{display:block; width:100%; min-height:inherit; border:none;}
+.navigation .navbar-collapse{padding-left:0; padding-right:0;}
+ul.social_head{float:left;}
+/**-----------------------------Closed---Header and Nav-Sec-------------------------*/
+
+
+/**-----------------------------Banner-Sec-------------------------*/
+.caroufredsel_wrapper{width:100% !important; overflow:hidden !important;}
+.banner_sec img{max-width:100%;}
+.slider_group{position:relative;}
+.banner_sec #prev, .banner_sec #next {display: block; overflow: hidden; width: 25px; height: 25px; position: absolute; top: 48%; opacity:.5; background:#eee; border-radius:50px; text-align:center; padding:3px; font-size:14px;     box-shadow: 0 2px 5px -1px #000;}
+.banner_sec #prev:hover, .banner_sec #next:hover{opacity:1;}
+.banner_sec #prev{background-position: 0 0; left: 5px;}
+.banner_sec #prev:hover, .banner_sec #prev:focus {outline:0;}			
+.banner_sec #next{background-position: -18px 0; right: 5px;}
+.banner_sec #next:hover, .banner_sec #next:focus{outline:0;}
+.banner_sec .pager{margin:0; text-align:left; position:absolute; bottom:10%;}
+.banner_sec .pager a{margin-right:6px; color:#000; background-color:#fff; height:18px; width:18px; display:inline-block; position:relative; font-size:13px; text-align:center; border-radius:4px;}
+.banner_sec .pager a.selected{background-color:#ed1c24; color:#fff;}
+
+.slider-caption{position:absolute; z-index:20; bottom:20%;}
+.slider-caption time{display:block; width:100%;}
+time .bid_timer {width: 350px; overflow: hidden; min-height: 80px; display: table; float:left; margin:0; padding-bottom:0; font-size:30px; line-height:1; background:url(../images/coundown-bg.png) center right #fff; background-size: contain; background-repeat: no-repeat; padding-top:11px; border-radius:4px;}
+time h4.bid_timer span{ display:inline-block; width:20%; vertical-align:top;}
+time h4.bid_timer em{ font-style:normal; display:block; text-transform:uppercase; font-size:11px; margin-bottom:18px; padding-top:10px;}
+.slider-caption h2, .filter_banner h2{background:#000; border-top-left-radius:4px; border-top-right-radius:4px; padding:13px 30px; display:inline-block; position:relative;}
+.slider-caption a.btn-black, .live_auction .product_list .item button.btn-black, .button_sec  button, .quick_nav button, .btn_sec button, a.btn_abs{background:#000; border:1px solid #585858; -webkit-box-shadow: 0 4px 3px -3px #010101; -moz-box-shadow: 0 4px 3px -3px #010101; box-shadow: 0 4px 3px -3px #010101; padding:0; line-height:40px; border-radius:6px; padding-right:30px; margin-top:15px;}
+.slider-caption a.btn-black .arrow, .live_auction .product_list .item button.btn-black .arrow, .button_sec  button .arrow, .quick_nav button .arrow, .btn_sec button .arrow, a.btn_abs .arrow{height:40px; width:40px; display:inline-block; position:relative; float:left; margin-right:30px; background:url(../images/arrow.png) center #3c3b3b; background-repeat: no-repeat; border-top-left-radius:6px; border-bottom-left-radius:6px; border-right:1px solid #585858;}
+
+/*----------------------Mid--Part---Css-----------------------------------*/
+.mid-part{padding-bottom:0px;}
+/**--------Bids--Sec---Css-------------------------*/
+.bids_sec{margin-left: auto; margin-right: auto; float:none;}
+.current_bids{background-color:#f8f8f8;}
+.live-auc h1{padding:15px 20px; border:1px solid #ddd; background:linear-gradient(to bottom, #fff, #f0f0f0);color:#000!important; font-family:Arial, Helvetica, sans-serif!important; font-size:22px!important;}
+.bids_sec .product_list, .winner_list, .complete_auc{max-width:100%; display:block; float: none; margin-left: auto; margin-right: auto;}
+.bids_sec .product_list .item, .winner_list .item, .complete_auc .item{margin-right:15px; margin-left:15px; position:relative; /*-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2); box-shadow: 0 1px 4px rgba(0,0,0,0.2); box-shadow: 0 3px 5px -1px #ddd;*/ -webkit-box-shadow: 0 4px 3px -3px #bbb; -moz-box-shadow: 0 4px 3px -3px #bbb; box-shadow: 0 4px 3px -3px #bbb; padding-bottom:0px; margin-bottom:6px; border-radius:0px; border:1px solid #ddd; background-color:#fff; }
+.bids_sec .product_list  img, .winner_list img, .complete_auc .item img{max-width:60%; margin-top:40px;}
+.bids_sec .product_list .item p,  .live_auction .product_list a.title, .winner_list a.title, .complete_auc a.title{padding:0px 15px; color:#434a54;white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  max-width: 300px;}
+.bids_sec small{text-align:left !important;}
+
+.popular_bids{background-color:#fff;}
+
+.bids_sec .product_list .item .price, .product_detail .price{height:30px; width:60px; position:absolute; top:70px; margin-left:0px; background:#84A1D1!important; color:#fff!important; text-align:center; line-height:30px; border-top-left-radius:0px;}
+.bids_sec .product_list .item .price span, .product_detail .price span {position: relative; color:#fff; font-size:14px;}
+.bids_sec .product_list .item .price span:before, .product_detail .price span:before {position: absolute; content: ""; left: -5px; top: 50%; right: -5px; border-top: 1px solid; border-color: #fff;
+ -webkit-transform:rotate(-30deg);
+  -moz-transform:rotate(-30deg);
+  -ms-transform:rotate(-30deg);
+  -o-transform:rotate(-30deg);
+  transform:rotate(-30deg);
+}
+.bids_sec .product_list .item .discount_price, .product_detail .discount_price{background-color:#d71f2b;}
+.bids_sec .product_list .item .favourite, .complete_auc .item .favourite{position:absolute; top:70px; right:10px; font-size:18px; color:#fff;}
+.bids_sec .product_list .item .view_dtl, .winner_list .view_dtl, .complete_auc .view_dtl{color:#ed1d25; position:absolute; margin-top:-30px; margin-left:15px; visibility: hidden;
+  opacity: 0; transition: visibility 0s, opacity 0.5s linear;}
+.bids_sec .product_list .item:hover, .winner_list .item:hover, .complete_auc .item:hover{border-color:#88B04B;}
+.bids_sec .product_list .item:hover .favourite, .complete_auc .item:hover .favourite{color:#ed1c24;}
+.bids_sec .product_list .item a.item_inner:hover .view_dtl, .winner_list a.item_inner:hover .view_dtl, .complete_auc a.item_inner:hover .view_dtl{visibility: visible; opacity: 1;}
+.bids_sec .product_list .item:hover .price{background-color:#d71f2b;}
+.bids_sec .owl-buttons{display:none;}
+
+/**-------------How It Works--Sec---Css----------------------*/
+.how_work img{max-width:100%; max-height:410px; margin-left:auto; margin-right:auto; float:none;}
+.how_work cite{font-style:normal; color:#969696; margin-bottom:-30px;}
+
+/**-----------------------------footer--CSS-------------------------*/
+.footer-fix{font-size:14px;  padding:0px;}
+.footer_top{color:#fff; background-color:#161616; padding:46px 0px;}
+.footer_top h1{padding-bottom:15px; margin-bottom:10px;}
+.footer_top ul li{line-height:24px;}
+.footer_top ul li a{ color:#fff!important;}
+.footer_top ul li a:hover{ color:#87B04B!important;}
+ul.social_like li{display:inline-block; position:relative;}
+.footer_nav ul{margin-left:0px;}
+.footer_nav ul li{list-style-image:none;}
+.payment p{font-size:11px;}
+.sprite{display:inline-block; margin-top:10px;}
+.sprite > div {float: left;}
+.sprite a {display: block; margin-left: 14px; transition: all 0.6s ease;}
+/*.sprite a:hover {opacity:.7;}*/
+.sprite a:hover {color: #F90; -ms-transform: scale(1.1); /* IE 9 */ -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+ -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */ transform: scale(1.1);}
+.sprite .paypal > a {background:url(../images/payment_icon.png) no-repeat 0 0; height: 34px; width: 122px; margin-left:0;}
+.sprite .visa > a {background: url(../images/payment_icon.png) no-repeat -130px 0; height: 34px; width: 85px;}
+.sprite .master-card > a {background: url(../images/payment_icon.png) no-repeat -226px 0; height: 34px; width: 58px;}
+.sprite .mastro > a {background: url(../images/payment_icon.png) no-repeat -300px 0; height: 34px; width: 58px;}
+.footer_bottom{padding:20px 0px;}
+.footer_bottom a img{max-height:50px; max-width:100%;}
+
+/**-----------------------------Live Bid Auction-Sec-------------------------*/
+
+/**-----For Filter CSS----------*/
+.filter_banner{background-color:#3b3b3b; padding-top:40px; padding-bottom:80px; position:relative;}
+.filter_banner form{background:#fff; padding:15px; border-radius:6px;}
+.select_filter button i{display:inline-block; position:absolute; line-height:24px; font-size:18px; right:10px;}
+.select_filter button, .input-group-btn:last-child>.ui_slider{color:#6b6b6d; line-height:26px; border:1px solid #dddde4;}
+.select_filter .input-group-btn .btn, .input-group-btn:last-child>.ui_slider{text-align:left; min-height:40px; white-space:normal; max-height:40px; overflow:hidden;}
+.select_filter .input-group-btn .btn, .select_filter .input-group-btn, .input-group-btn:last-child>.ui_slider{width:100%;}
+.input-group-addon{background:#fbfbfb; border-color:#dddde4;}
+.input-group-addon img{max-height:22px;}
+.select_filter button span{max-width:90%; overflow:hidden; float:left;}
+.select_filter .btn-default.active, .select_filter .btn-default:active, .select_filter .open>.dropdown-toggle.btn-default, .select_filter .btn-default:hover, .select_filter .btn-default:focus      .stickyheader .select_filter .btn-default.active, .stickyheader .select_filter .btn-default:active, .stickyheader .select_filter .open>.dropdown-toggle.btn-default, .stickyheader .select_filter .btn-default:hover, .stickyheader .select_filter .btn-default:focus {color:#000; background-color:#fbfbfb; border-color: #dddde4;}
+.manage_pad{padding-bottom:40px;}
+
+/*.filter_banner form .col-md-3{max-width:25%;}
+.filter_banner form .col-md-2{max-width:22%;}
+.filter_banner form .col-md-5{width:35%;}*/
+
+.time_caption{position:relative !important; margin-top:-55px;}
+.time_caption time h4.bid_timer{-webkit-box-shadow: 0 1px 3px 0px #bbb; -moz-box-shadow: 0 1px 3px 0px #bbb; box-shadow: 0 1px 3px 0px #bbb;}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .input-group-btn:last-child>.ui_slider{z-index:1;}
+
+/**-----For live Product CSS----------*/
+.live_auction .product_list .item small{color:#848484; padding:15px; border-bottom:1px solid #dedede; background-color:#f7f7f7;}
+.live_auction .product_list .item, .winner_list .item, .complete_auc .item{margin-left:0; margin-right:0; margin-bottom:30px; position:relative;}
+.live_auction .product_list a.title, .winner_list a.title, .complete_auc a.title{font-size:15px; color:434a54;}
+.toggle_content{position:relative;}
+.hidden_div{text-align:left !important; top: -57px; left: -0.1em; right:-0.1em; opacity: 1; transform: perspective(800px) rotate(0deg) scale(1, 1) skew(0deg, 0deg) rotateX(0deg) rotateY(0deg); transition: left 0.5s ease 0s, top 0.5s ease 0s, opacity 0.5s ease 0s, -webkit-transform 0.5s ease 0s, transition 0.5s ease 0s; -o-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;  border-bottom-left-radius:5px; border-bottom-right-radius:5px; margin: 0px; position:absolute; border:2px solid #f4f4f4; background-color:#fff; border-top:0; z-index: 99; -webkit-box-shadow: 0 4px 3px -3px #bbb; -moz-box-shadow: 0 4px 3px -3px #bbb; box-shadow: 0 4px 3px -3px #bbb;  display:none;}
+.live_auction .product_list .item:hover .toggle_content{overflow:visible;}
+.live_auction .product_list .item:hover .hidden_div{border-color:#ed1c24;}
+.live_auction .product_list .item button.btn-black, .button_sec  button, .btn_sec button, a.btn_abs{margin:20px 0px 0px 0px; font-size:13px; border-radius:4px; padding-right:15px; line-height:34px; width:90%;}
+.live_auction .product_list .item button.btn-black .arrow, .button_sec  button .arrow, .btn_sec button .arrow{margin-right:15px; height:35px; width:35px; border-top-left-radius: 2px; border-bottom-left-radius: 2px;}
+
+.toggle_content p{padding-right:0 !important;}
+.toggle_content form{display:inline-block; position:relative; width:50%; float:left;}
+.toggle_content form .form-control, .detail_inner form .form-control{color:#b9b9b9; padding:6px 9px;}
+.toggle_content form.single .form_inner{padding:11px;}
+.toggle_content form.doubble .form_inner2{background:#f7f7f7; padding:11px; border-left:1px solid #dedede;}
+.toggle_content form.doubble .form_inner2 .form-control, .detail_inner form .form_inner2 .form-control{display:inline-block; position:relative; width:42%;}
+.toggle_content form.doubble .form_inner2 em, .detail_inner form .form_inner2 em {font-family:'OpenSans-Light'; font-size:10px; display:inline-block; position:relative; font-style:normal; margin:0;}
+.toggle_content p{padding-left:0 !important;}
+.toggle_content button{font-size:10px !important; padding-top:5px !important; padding-right:10px !important; margin-left:0 !important; width:100% !important;}
+.toggle_content button span{font-size:12px !important; padding-top:2px;}
+.toggle_content button i{margin-top:-5px !important; margin-right:15px !important;}
+.ui_slider button{cursor:default;}
+.toggle_content form input[type=checkbox], .detail_inner form input[type=checkbox]{margin-right:10px; margin-top:0; vertical-align:middle;}
+.toggle_content form .terms{padding-left:10px;}
+.main_ttl{display:block; width:100%; margin-top:-60px;}
+.main_ttl small, .main_ttl h1{text-align:right !important; display:block;}
+.select_filter ul.dropdown-menu, .user_info ol li.dropdown ul, span.help_info summary {left: auto; right: 0; top: 52px; background: #000; border:none; border-color: rgba(0,0,0,.2);
+ -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2); box-shadow: 0 2px 10px rgba(0,0,0,.2);	margin:0;}
+.select_filter ul.dropdown-menu li a, .user_info ol li.dropdown ul li a{color:#6b6b6d; padding:10px 15px; border-bottom:1px solid #3b3b3b;}
+.select_filter ul.dropdown-menu li:first-child a, .user_info ol li.dropdown ul li:first-child a{border-top-right-radius:4px; border-top-left-radius:4px;}
+.select_filter ul.dropdown-menu li:last-child a, .user_info ol li.dropdown ul li:last-child a{border-bottom-left-radius:4px; border-bottom-right-radius:4px; border-bottom:0;}
+.select_filter ul.dropdown-menu:after, .user_info ol li.dropdown ul:after, span.help_info summary:after {position: absolute; content: ''; top: -7px; right: 10px; width: 18px; height: 20px; background: #000; -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -o-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg); border: 1px solid #000; border-left: 0; border-top: 0; z-index: -999;}
+.select_filter .dropdown-menu>li>a:focus, .select_filter .dropdown-menu>li>a:hover, .user_info ol li.dropdown ul li.active a, .user_info ol li.dropdown ul li a:hover{background-color:#ed1c24; color:#fff;}
+.help_info  i.fa-info{height:20px; width:20px; font-size:12px; text-align:center; border:1px solid #ccc; border-radius:100%; padding:4px; color:#ccc; display:inline-block; position:relative; vertical-align:middle; margin-top:4px; margin-left:6px;}
+
+/**-----For Product Details CSS----------*/
+.breadcrumb{background:0; text-transform:uppercase;  font-size:11px; padding-top:20px;}
+.breadcrumb>li+li:before{content: "\f105"; font-family:'FontAwesome'; color:#000; font-weight:bold;}
+.breadcrumb a{color:#6a6b6d;}
+.dtl_ttl{border-bottom:1px solid #aab2bd;}
+.dtl_ttl h1{border:0; text-align:right;}
+.bids_sec .breadcrumb{padding-top:0;}
+
+.product_detail, .product_info, .about_us, .reg_inner, .user_info, .user_box{position: relative; -webkit-box-shadow: 0 1px 4px 0px #bbb; -moz-box-shadow: 0 1px 4px 0px #bbb; box-shadow: 0 1px 4px 0px #bbb; border-radius:5px; background-color:#fff;}
+.product_detail .caroufredsel_wrapper{max-height:500px; overflow:hidden;}
+.product_detail .pager, .product_detail #prev{left:5%;}
+.product_detail #next{right:5%;}
+.product_detail .banner_sec{background-color:#f7f7f7;}
+.bid_pramotion ul li{display:inline-block; position:relative; width:24.5%; border-right:1px solid #fff; padding:31px 20px; margin-bottom:0px; background:url(../images/promotion_bg.png) no-repeat center right;}
+.bid_pramotion ul li:last-child{border:none;}
+
+.row_a .left_sec, .row_a .right_sec, .detail_inner form, .row_b .right_sec h6 span, .row_b .right_sec a i, .row_b .right_sec a strong{display:inline-block; position:relative;}
+
+.bid_pramotion span, .bid_pramotion span cite{width:100%; display:block; color:#848484;}
+.bid_pramotion cite{color:#424242;}
+.detail_inner, .row_b .left_sec, .description, .history_detail{border-right:1px solid #dedede;}
+.description {min-height: 300px;}
+
+.detail_inner form .form_inner2, .detail_inner form .btn_bg, .history_detail{border-left:1px solid #dedede;}
+
+.detail_inner h1, .detail_inner .row_a, .detail_inner form, .detail_inner form .terms, .sec_a, .sec_b, .sec_c, .description h2, .bid_history h2, .dtl_info h2, .reg_inner h2, .history_detail h1, .row_aa, .row_bb {border-bottom:1px solid #dedede;}
+.detail_inner .row_a{background-color: #f7f7f7;}
+.row_a .right_sec{background-color: #fff;}
+
+.row_a .left_sec, .detail_inner form .form_inner2, .detail_inner form .btn_bg{background-color:#f7f7f7;}
+.row_a .left_sec, .row_b .left_sec{width:75%;}
+.row_a .right_sec, .row_b .right_sec{width:24%;}
+.detail_inner h1, .history_detail h1{min-height:61px; max-height:61px; overflow:hidden;}
+.detail_inner form{width:50%; margin:0; padding:0; float:left;}
+.form-control{border-color:#dddde4; border-radius:2px;}
+.button_sec button{margin:0 !important; webkit-box-shadow: 2px 2px 0px -1px #da252f; -moz-box-shadow: 2px 2px 0px -1px #da252f;  box-shadow: 2px 2px 0px -1px #da252f;}
+.button_sec  button{width:100%;}
+.row_b .left_sec, .row_b .right_sec, .row_b .right_sec h6 span{float:left;}
+.row_b .left_sec summary{padding-left:55px; background:url(../images/icon_info.png) center left #fff; background-repeat:no-repeat;}
+.row_b .left_sec summary p:last-child{margin-bottom:0;}
+.row_b .right_sec h6 span{width:40%;}
+.row_b .right_sec h6 span:first-child{width:60%;}
+.row_b .right_sec a, .btn_order a{border:1px solid #dddde4; border-radius:4px;}
+.row_b .right_sec a strong,  .btn_order a strong{padding:4px; padding-left:15px; color:#494949;}
+.row_b .right_sec a strong span{color:#bebebe;}
+.row_b .right_sec a i,  .btn_order a i{float:left; width:40%; background-color:#fbfbfb; border-right:1px solid #dddde4; padding:6px; text-align:center; border-top-left-radius:4px; border-bottom-left-radius:4px; color:#7e7d7e;}
+.row_b .right_sec a:hover i,  .btn_order a:hover i{color:#494949;}
+.row_b .right_sec a:hover strong span{color:#7e7d7e;}
+.row_b .right_sec a:hover strong,  .btn_order a:hover strong{color:#bebebe;}
+
+.sec_b a i{height:34px; width:34px; text-align:center; padding:7px; border-radius:4px; font-weight:normal; webkit-box-shadow: 0 1px 1px 1px #bbb; -moz-box-shadow: 0 1px 1px 1px #bbb; box-shadow: 0px 1px 1px 1px #bbb;}
+.sec_b a i.fa-google-plus{padding:4px; padding-top:7px; font-size:18px !important;}
+.sec_b a i.fa-facebook{background-color:#3b5998;}
+.sec_b a i.fa-twitter{background-color:#55acee;}
+.sec_b a i.fa-google-plus{background-color:#dc5043;}
+
+.sec_d .cash_refund{background:url(../images/icon_refund.png) no-repeat center top;}
+.sec_d .cash_in{background:url(../images/icon_cash.png) no-repeat center top; margin-bottom: 10px;}
+.row_a .id{position:absolute; top:-11px; z-index:20; left:20px; padding:4px; background:#000; color:#fff; border-radius:4px;}
+.discount span{position:absolute; z-index:20; top:-120px; left:20px; width:92%; text-align:center; background:#f7f7f7; -webkit-box-shadow: 0 1px 4px 0px #bbb; -moz-box-shadow: 0 1px 4px 0px #bbb; box-shadow: 0 1px 4px 0px #bbb; padding:5px;}
+.disc_inner article, .disc_inner ul li{line-height:24px;}
+.disc_inner ul li{list-style-image:url(../images/list_disc_icon.png);}
+.product_detail .price{border-top-left-radius:1px;}
+
+.detail_inner{border-left:1px solid #ddd;}
+
+/**-----Data Table CSS----------*/
+table.display{width:90%; margin-top:20px;}
+table.dataTable.no-footer, table.dataTable thead th, table.dataTable thead td{border:none;}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd, table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1, table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1, table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover, table.dataTable tbody tr{background-color:#f7f7f7;}
+table.display tbody tr, table.display thead > tr{border-radius:4px; -webkit-box-shadow: 0 1px 4px 0px #bbb; -moz-box-shadow: 0 1px 4px 0px #bbb;  box-shadow: 0 1px 4px 0px #bbb; border:none; margin-bottom: 20px;}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{border:none;}
+table.display>tbody>tr, table.display>thead>tr{display:block;}
+table.display thead > tr> th, table.display tbody td {color: #555; width: 14%; display: inline-block; font-family:'OpenSans-Semibold'; font-size:10px; text-align:left;}
+table.display thead > tr> th{text-transform:uppercase; padding:8px 9px;}
+table.display tbody td{padding:4px 8px;}
+table.display tbody td:last-child, table.display thead > tr> th:last-child{text-transform:uppercase; width:9%;}
+table.display tbody td:nth-of-type(2n), table.display thead > tr> th:nth-of-type(2n){width:9%;}
+table.display tbody td:nth-of-type(3n), table.display thead > tr> th:nth-of-type(3n){width:35%;}
+table.display tbody td:nth-of-type(4n), table.display thead > tr> th:nth-of-type(4n){width:14%;}
+.dataTables_empty{width:100% !important; font-size:14px;}
+.bid_history .table-responsive{border:0;}
+
+/**-----About Us CSS----------*/
+.quick_nav ul, .contact_info{background:#161616; border-top-left-radius:4px; border-bottom-left-radius:4px;}
+.quick_nav ul li{border-bottom:1px solid #3b3b3b; position:relative;}
+.quick_nav ul li:first-child, .contact_info h2{border-bottom-color:#dedede;}
+.quick_nav ul li a, .quick_nav ul li:first-child{padding:20px 30px;}
+.quick_nav ul li.active{background-color:#88B04B; color:#fff;}
+.quick_nav ul li.active a, .quick_nav ul li a:hover{color:#fff;}
+
+.quick_nav ul li.active a:before { position: absolute; content: ''; top: 18px; right: -7px; width: 18px;  height: 20px;  background:#88B04B; -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -o-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg); border: 1px solid #88B04B; border-left: 0; border-top: 0; z-index: 9;}
+.quick_nav button{margin-top:0; font-size:13px; line-height:35px;}
+.quick_nav button .arrow{margin-right:15px; height:35px; width:35px;}
+.dtl_info .disc_inner{line-height:20px; font-size:13px; min-height:540px;}
+.dtl_info .disc_inner h3:first-child{margin-top:0;}
+
+.disc_inner .panel-heading{padding:10px 0px;}
+.disc_inner .panel-body{padding-left:0;padding-right:0;}
+.disc_inner .panel-body p, .disc_inner .panel-group{margin-bottom:0;}
+
+/**-----Registration CSS----------*/
+.exit_user form{margin-left:auto; margin-right:auto; float:none;}
+.new_user .gray_box{background:url(../images/shadow_img.png) no-repeat center right #f9f9f9; height:100%; min-height:480px; border-left:1px solid #dedede; background-size:contain;}
+.reg_inner .exit_user h2, .signup_sec h2{background:#88B04B; position:relative; color:#fff!important}
+
+.reg_inner .exit_user h2:before, .signup_sec h2:before { position: absolute; content: ''; top: 76%; right: 50%; width: 18px; height: 20px; background: #88B04B; -webkit-transform: rotate(225deg); -moz-transform: rotate(225deg); -o-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg); border: 1px solid #88B04B; border-left: 0; border-top: 0; z-index: 20;}
+.social_log ul li{display:inline-block; position:relative;}
+.social_log ul li a{border-radius:4px;}
+.social_log ul li:first-child a{background:#3a5998;}
+/*.social_log ul li:last-child a{background:#d64136;}*/
+.social_log ul li a i{vertical-align:middle;}
+.exit_user .button_sec button{width:80%; float:right;}
+.exit_user .button_sec button i, .new_user .gray_box button i, .signup_sec .button_sec button i{font-size:20px; padding-top:7px; background-image:none;}
+
+.exit_user form input[type=checkbox]{margin:0px 5px 0; vertical-align:middle;}
+.exit_user form .check span{color:#5e5e5e;}
+.new_user .gray_box button{font-family:'OpenSans-Semibold';}
+
+.new_user{-webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease;}
+
+ .new_user .gray_box{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;position:relative;overflow:hidden;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.6s;transition-duration:.6s} .new_user .gray_box:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background:#fff; border-radius:100%;-webkit-transform:scale(0);transform:scale(0);-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.6s;transition-duration:.6s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out} .new_user .gray_box:hover:before{-webkit-transform:scale(2);transform:scale(2)}
+
+
+/*.new_user:hover .gray_box{background-color:#eee;}*/
+
+/*-------------CMS----------CSS-----*/
+.cms_sec{color:#818080;}
+.cms_sec h4{font-family:"ubuntu-m-webfont"; font-size:20px; margin-top:30px; color:#666;}
+.cms_sec h4:first-child{margin-top:0;}
+.cms_sec ul, .cms_sec ul li ul{list-style-type:disc; list-style-position:inside;}
+.cms_sec ol, .cms_sec ol li ol{list-style-position:inside;}
+.cms_sec ul li ul,  .cms_sec ol li ol{padding-left:15px;}
+.cms_sec b, .cms_sec strong, .cms_sec span{display:block; margin-bottom:10px; margin-top:10px;}
+.cms_sec p b, .cms_sec p b b, .cms_sec p strong, .cms_sec p strong strong,  .cms_sec p span, .cms_sec ul b, .cms_sec ul strong, .cms_sec ul span, .cms_sec ol b, .cms_sec ol strong, .cms_sec ol span, .cms_sec span span, .cms_sec p b span, .cms_sec p strong span, .cms_sec  b span, .cms_sec strong span{display:inline-block; position:relative; margin:0;}
+.cms_sec ol{padding-left:0px;}
+.cms_sec ol li ol li, .cms_sec ol li ul li{list-style-type:circle !important;}
+.cms_sec .table{font-weight:normal; margin-top:30px; background: #fff; box-shadow: 0px 1px 2px 0px #bfbfbf; margin-bottom: 20px; border:0;}
+.cms_sec .table th{font-family:"ubuntu-m-webfont"; font-weight:normal;}
+/*--Closed---*/
+
+<!-- After Login Header Css-->
+.user_info ul li, .user_info ol li ul li{display:block; position:relative;}
+.user_info ol li, ol.user_head li:last-child a, .history_detail ol li,  .winner_info ol li, .history_inner ul li span{display:inline-block; position:relative;}
+.user_info ol{padding:0; margin:0; list-style-type:none;}
+ol.user_head{background:#161616; color:#c1c7cf; border-top-left-radius:5px; border-top-right-radius:5px; font-size:10px;}
+ol.user_head li a.dropdown-toggle{padding:6px 12px; display:block; color:#fff; vertical-align:middle; background:#3b3b3b; border-top-left-radius:5px;}
+ol.user_head li a.dropdown-toggle i, ol.user_head li:last-child i{color:#c1c7cf; font-size:14px; vertical-align:middle; padding-right:10px;}
+ol.user_head li a.dropdown-toggle:after{content:"\f107"; font-family:"FontAwesome"; font-size:16px; display:inline-block; position:relative; color:#7e7e7e; font-weight:bold; padding-left:10px;}
+ol.user_head li:last-child i{padding-left:10px; padding-right:10px;}
+ol.user_head li:last-child a.refresh i{font-weight:normal;}
+ol.user_head span{color:#fff; background:#ed1c24; padding:1px 5px; margin-left:5px; border-radius:5px; margin-right:10px;}
+
+.popover{border:none; text-align:center; max-width:132px; background:#000;}
+.popover.bottom>.arrow:after {border-bottom-color:#000;}
+.popover.bottom>.arrow{left:50% !important;}
+.popover.bottom {margin-top: 18px; margin-left:0px;}
+.popover-title {background-color: #000; text-shadow: 0 1px 1px #ccc; font-weight: normal; margin-top:10px; border:0; color:#fff; margin:0; font-size:12px; padding-bottom:0;}
+.popover-content{  font-size:10px; color:#c1c7cf;}
+
+
+ol.ol_2{border-bottom:1px solid #f2f2f2; padding:5px 0px;}
+ol.ol_2 li, ol.ol_3 li{font-size:10px; color:#b0b0b0; width:32.6%; padding-left:30px;}
+ol.ol_2 li span, ol.ol_3 li span{font-size:12px; font-family:'OpenSans-Bold'; color:#424242;}
+ol.ol_3{padding:5px 0px;}
+ol.ol_3 li span{display:block; text-align:left;}
+.user_info ul{margin-bottom:0;}
+ol.ol_2 li:first-child, ol.ol_3 li:first-child{padding-left:15px;}
+ .user_info ol li.dropdown ul{top:44px;}
+.user_info ol li.dropdown ul li, .user_info ol li.dropdown ul li a{display:block !important; color:#c1c7cf;  font-size:12px;}
+ol.user_head li:last-child cite{display:none;}
+
+/**-----------------------------Contact CSS-------------------------*/
+.contact_info h2{padding:20px 30px; border-bottom:1px solid #c1c7cf;}
+
+
+/*----------------------Css-3 Sticky Header Animation Css-----------------------------------*/
+.stickyheader{transition-duration: .5s; -webkit-transition: all 5s ease-in-out; -moz-transition: all 5s ease-in-out; -o-transition: all 5s ease-in-out; transition: all 5s ease-in-out; background:#000; color:#fff; padding:0px; position: fixed; top: -200px; left: 0; right: 0; z-index: 999; transition: 0.5s top cubic-bezier(.3,.73,.3,.74);}
+.stickyheader .sticky_logo img{max-width:100%; margin-top:5px; max-height:62px;}
+.stickyheader .sticky_logo:hover img{opacity:.9;}
+.stickyheader .filter_banner{padding:0; background:none; margin-top:18px;}
+.stickyheader .filter_banner form{border-radius:0; background:none; padding:0;}
+.stickyheader.sticky{top: 0;}
+.stickyheader .filter_banner form .padding{padding-right:0; padding-left:0;}
+.stickyheader .filter_banner form .col-md-5{width:41.666%;}
+.stickyheader .input-group-addon{padding:5px 10px;}
+.stickyheader .input-group-addon img{max-height:18px;}
+
+.sticky_head_right{border-left:1px solid #3b3b3b; padding-left:0;}
+.sticky_head_right ol{list-style-type:none; padding:0; margin:0;}
+.sticky_head_right ol li{display:inline-block; position:relative; font-size:10px; color:#c1c7cf; padding:6px 6px; vertical-align:middle;}
+.sticky_head_right .ol_4{border-bottom:1px solid #3b3b3b;}
+.sticky_head_right .ol_4 li span{display:block; font-size:14px; font-family:'OpenSans-Semibold'; color:#fff;}
+.sticky_head_right ol li:last-child{text-align:right; background-color:#3b3b3b; float:right; min-width:50px;}
+.sticky_head_right ol li i{font-size:14px; font-weight:normal; line-height:34px; color:#c1c7cf; vertical-align:middle;}
+.sticky_head_right ol li a:last-child i{margin-left:8px; color:#fb2b30;}
+.sticky_head_right .ol_5 i{line-height:18px;}
+.sticky_head_right .ol_5 li i{margin-right:2px;}
+.sticky_head_right .ol_5 li span{font-size:12px; color:#fff; font-family:'OpenSans-Semibold';}
+.sticky_head_right .ol_5 li:last-child{background:#1a1a1a;}
+.sticky_head_right .ol_5 li:last-child span{font-size:10px; background:#ed1c24; padding:1px 3px; border-radius:2px;}
+
+.bid_item{cursor:pointer;}
+.bid_item:hover span, .bid_item span:hover{color:#ed1c24 !important;}
+/*----------------------Closed Sticky Header Css-----------------------------------*/
+
+/**-----------------------------winner CSS-------------------------*/
+.video{display:block; position:relative;}
+.video figure:after{content: ""; position: absolute; display: block; background:url(../images/btn_youtube.png) no-repeat 0 0; top: 40%; left: 40%; width: 55px; height: 40px; z-index: 30; cursor: pointer;}
+.video figure:hover:after {background:url(../images/btn_youtube_hover.png) no-repeat 0 0;}
+.video-modal .modal-body{padding:0px;}
+.video-modal .modal-content{border:none; background-color:#000;}
+.video-modal button.close{top:0px; color:#fff; background-color:#ed1c24; padding:5px 10px; opacity:1; position:absolute; border:1px solid #C00;}
+.video-modal button.close:hover{background-color:#fbfbfb; color:#ed1c24; border-color:#dddde4;}
+
+.winner_list{text-align:left;}
+.winner_list .item_inner, .complete_aucm.item_inner{text-align:center;}
+.winner_list hgroup, .winner_list b, .complete_auc hgroup, .complete_auc b{padding:20px 15px;}
+.winner_list b, .complete_auc b{padding-bottom:0;}
+
+.winner_list hgroup small, .complete_auc hgroup small{color:#a5a5a5; text-transform:none;}
+.winner_list hgroup.winner_name{background:url(../images/tropphy.png) no-repeat center right #f7f7f7;}
+.winner_list hgroup.winner_name p{white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;  max-width: 250px;}
+.winner_list span, .winner_list b em, .complete_auc b span, .complete_auc b em{display:inline-block; width:60%; color:#9b9b9b;}
+.winner_list b em, .complete_auc b em{color:#a9a9a9; width:38%; text-align:right;}
+.winner_list hgroup h5{min-height:30px;}
+/**-----------------------------Complete Auction CSS-------------------------*/
+.complete_auc hgroup{background:url(../images/tropphy.png) no-repeat center right -110px #f7f7f7; -webkit-transition:background-position 1s ease;}
+.complete_auc a.title{padding:15px; text-align:center;}
+.complete_auc hgroup small,  .history_detail ol small{color:#000; padding-bottom:4px;}
+.complete_auc hgroup .id, .history_detail ol .id{position:relative; padding:3px 3px; background:#000; color:#fff; border-radius:4px; display:inline-block;}
+.complete_auc hgroup ul li{margin-right:15px;}
+.complete_auc hgroup ul li:last-child{margin-right:0;}
+.complete_auc .item:hover hgroup{background-position:center right 0;}
+.complete_auc .item:hover hgroup ul li:last-child .id, .winner_info ol:hover .id{background:#ed1d25;}
+
+/**-----------------------------Complete Auction Details CSS-------------------------*/
+.history_detail .col-md-10{border-right:1px solid #dedede;}
+.history_inner ol{border-bottom:1px solid #dedede;}
+.history_right_info .sec_b{border-bottom:none;}
+.history_inner .col-md-5 ol{list-style-type:none; padding:20px 20px; background:#f7f7f7;}
+.history_inner .col-md-5 ol li{width:48%;}
+
+.winner_info ol{background:url(../images/troppy_samll.png) no-repeat center left #fff; padding:0; padding-left:20px; background-position:-5px; -webkit-transition:background-position 1s ease;}
+.winner_info ol:hover{background-position:110px;}
+	
+	
+.winner_info ol li a{display:inline-block; text-align:right;}
+.winner_info ol li a img{max-height:82px; min-height:80px; width:100%; margin-right:-2px;}
+ .winner_info ol li:first-child{width:56%; padding-left:55px; -moz-transition: padding-left .6s ease-in; -o-transition: padding-left  .6s ease-in; -webkit-transition: padding-left  .6s ease-in; transition: padding-left  .6s ease-in;}
+ .winner_info ol li:last-child{width:42%; text-align:right; border-left:1px solid #dedede;}
+ 
+ .winner_info ol:hover li:first-child{padding-left:0px;}
+ 
+ .history_inner ul li{border-bottom:1px solid #dedede;}
+ .history_inner ul li span{padding:0.6499em;}
+ .history_inner ul li:last-child{border-bottom:none;}
+ .history_inner ul li span:first-child{color:#757575; width:75.8%; padding-left:20px;}
+ .history_inner ul li span:last-child{color:#888888; width:23%; padding-left:15px; border-left:1px solid #dedede;}
+
+/**-----------------------------Image Modal CSS-------------------------*/
+#myImg {border-radius: 1px; cursor: pointer; transition: 0.3s;}
+#myImg:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal_img {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal_img .modal-content {margin: auto; display: block; width: 80%; max-width: 700px;}
+
+/* Caption of Modal Image */
+.modal_img #caption { margin: auto; display: block; width: 80%; max-width: 100%; text-align: center; color: #fff;  padding: 10px 0;}
+
+/* Add Animation */
+.modal_img .modal-content, #caption { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.modal_img .close { position: absolute; top: 15px; right: 35px; color: #fff; font-size: 40px; font-weight: bold;  transition: 0.3s; opacity:.5;}
+.modal_img .close:hover{opacity:1;}
+
+.modal_img .close:hover, .modal_img .close:focus { color: #bbb; text-decoration: none; cursor: pointer;}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal_img .modal-content {
+        width: 100%;
+    }
+}
+
+
+/* Customer Registration */
+.form_field{background:url(../images/user_icon.png) no-repeat bottom right #fff; height:100%; min-height:270px; border-bottom:1px solid #dedede; padding:40px 220px 30px 220px;}
+.form_btm{padding:40px 220px 30px 220px; background:#f8f8f8; border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+.form_field .form-control{font-family:'OpenSans-Regular'; font-size:13px;}
+.form_field .form-group{margin-bottom:35px;}
+.form-control:focus{box-shadow:none; border-color:#ed1c24;}
+
+.select-sec select, .select_sec select{display:inline-block; position:relative; width:29.6%; color:#b4b4b4;}
+.select-sec select.form-control, .select_sec select form-control{padding:6px 5px !important;}
+.select-sec select.select-mid, .select_sec select.select-mid{margin:0 10px;}
+.signup_sec button{float:left; width:50%;}
+.signup_sec .check span{vertical-align:middle; padding-left:5px;}
+input[type=checkbox]{margin:0 !important; vertical-align:middle;}
+.signup_sec .check span input[type="checkbox" i]{background-color:#fff !important;}
+a.btn_abs{width:auto; display:inline-block; position:absolute; bottom:40px; margin-left:20px; min-width:250px; line-height:40px; border-radius:6px;}
+a.btn_abs .arrow{margin-right:20px;}
+
+.margin_manage{margin-right:0;}
+.user_box, .dtl_info{border-top-right-radius:5px; border-bottom-right-radius:5px;}
+.user_box, .about_us{background-color:#161616; position:relative;}
+.quick_nav button{margin:20px 15px 20px 20px;}
+.dtl_info{background-color:#fff; min-height:460px; padding-right:0;}
+.dtl_info h2{text-align:left !important; padding:22px 30px;}
+.ac_form{padding:0 !important;}
+ .ac_form label{color:#5e5e5e;}
+ .ac_form .form-control{color:#b4b4b4;}
+ .row_bb{background-color:#f7f7f7;}
+ .row_aa, .row_bb{padding-top:30px;}
+/* Custom Checkbox */ 
+.check_box{cursor:pointer;}
+.check_box:hover{background-color:#f7f7f7;}
+.check_box input[type=checkbox]{display:inline-block; width:90%; position:absolute; left:15px; top:0px; height:100%; opacity:0; cursor:pointer;}
+.check_box em{font-style:normal;}
+.check_box input[type="checkbox"] ~ i.fa.fa-square-o{ color: #dddde4;    display: inline-block; width:20px; font-size:18px; margin-top:3px;  vertical-align:middle;}
+.check_box input[type="checkbox"] ~ i.fa.fa-check-square-o{ display: none; width:20px; font-size:18px;  margin-top:3px;  vertical-align:middle;}
+.check_box input[type="checkbox"]:checked ~ i.fa.fa-square-o{ display: none;}
+.check_box input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{color: #aaa;    display: inline-block;}
+.check_box:hover input[type="checkbox"] ~ i.fa {color: #ccc; font-weight:normal;}
+.btn_sec button{margin:0; width:100%;}
+.bdr_none{border-bottom:none;}
+
+/* Transactions */
+.dtl_info .disc_inner p small{font-size:10px; line-height:14px; display:block;}
+.cr_box{background: url(../images/cr_box_bg.png) no-repeat bottom right #f7f7f7; border:1px solid #dddde4; border-radius:5px; padding:20px 15px 20px 20px; width:80%; float:right;}
+.cr_box h5, .cr_box mark{width:50%;}
+.cr_box mark{text-align:center; border-radius:10px; background-color:#ed1c24; color:#fff; width:48%;}
+.trans_tbl .table>tbody>tr>td, .trans_tbl .table>tbody>tr>th, .trans_tbl .table>thead>tr>td, .trans_tbl .table>thead>tr>th,  .modal-order .modal-body .table>thead>tr>th,  .modal-order .modal-body .table>thead>tr>td,  .modal-order .modal-body .table>tbody>tr>th,  .modal-order .modal-body .table>tbody>tr>td{border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.trans_tbl .table>tbody>tr:last-child>td, .modal-order .modal-body .table>tbody>tr:last-child>td{border-bottom:1px solid #ddd;}
+.trans_tbl .table>tbody>tr>th, .trans_tbl .table>thead>tr>th, .modal-order .modal-body .table>thead>tr>th{background-color:#161616; color:#fff;}
+.trans_tbl ol{margin:0; padding-left:0;}
+.trans_tbl ol li{list-style:none; width:49%;}
+.trans_tbl .table>tbody>tr>td span, .trans_tbl .table>tbody>tr>th span{background-color:#000; color:#fff; padding:2px 4px; border-radius:4px;}
+table.auc_history{width:98% !important; margin-right:2%;}
+table.auc_history tbody td{padding-left:10px;}
+table.auc_history tbody td:first-child, table.auc_history thead > tr> th:first-child{width:15%;}
+table.auc_history tbody td:last-child, table.auc_history thead > tr> th:last-child{text-transform:none; width:12%;}
+table.auc_history tbody td:nth-of-type(2n), table.auc_history thead > tr> th:nth-of-type(2n){width:auto;}
+table.auc_history tbody td:nth-of-type(3n), table.auc_history thead > tr> th:nth-of-type(3n){width:auto;}
+table.auc_history tbody td:nth-of-type(4n), table.auc_history thead > tr> th:nth-of-type(4n){width:auto;}
+table.auc_history th.item_name, table.auc_history td.item_name{width:20% !important;}
+table.auc_history th.item_name{width:22% !important;}
+table.auc_history th.name_2, table.auc_history td.name_2{width:9% !important;}
+table.auc_history td.text-center{text-align:center !important;}
+.table_res{max-height:390px; overflow:auto;}
+table.auc_history tbody  tr{margin-bottom:7px !important;}
+
+/* Buy Bid Credits*/
+.buy_credit{background:url(../images/credit_bg.png) no-repeat top center #fff; margin-top:15px; padding-bottom:60px; background-size:contain;}
+.sprite2{display:inline-block; margin-top:20px;}
+.sprite2 > div {float: left;}
+.sprite2 a {display: block; margin-left: 10px; transition: all 0.6s ease;}
+/*.sprite a:hover {opacity:.7;}*/
+.sprite2 a:hover {color: #F90; -ms-transform: scale(1.1); /* IE 9 */ -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+ -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */ transform: scale(1.1);}
+.sprite2 .visa > a {background:url(../images/payment_logos.png) no-repeat 0 0; height: 34px; width: 76px; margin-left:0;}
+.sprite2 .master-card > a {background: url(../images/payment_logos.png) no-repeat -85px 0; height: 34px; width: 55px;}
+.sprite2 .mastro > a {background: url(../images/payment_logos.png) no-repeat -148px 0; height: 34px; width: 55px;}
+.sprite2 .paypal > a {background: url(../images/payment_logos.png) no-repeat -205px 0; height: 34px; width: 120px;}
+.form-control{height:40px;}
+.buy_credit .btn_sec, .group2{margin-top:35px;}
+.buy_credit form label{font-size:12px; text-transform:none; color:#848484; margin-bottom:15px;}
+.group3 small{display:block; max-width:305px; text-align:center; font-size:12px; color:#474747; background:#f6f6f6; padding:30px 20px; border-radius:6px; margin-top:15px;}
+.group3 small em{color:#ed1c24; font-family:'OpenSans-Bold'; padding-right:5px;}
+.group3 .note small, .buy_credit .btn_sec button{text-align:center; float:right;}
+.group2 .form-group{position:relative;}
+.group2 .col-md-4:after, .group2 .col-md-3:after{content: "..........."; color:#aaa; font-size:14px; display:inline-block; position:absolute; right:-5px; bottom:13px;}
+.group2 .col-md-3.form-group:after{right:-15px;}
+.group2 .form-control{width:90%;}
+.buy_credit .btn_sec button{width:95%;}
+.dtl_info .disc_inner.buy_credit{min-height:inherit;}
+
+/* Order popup*/
+.modal-order .modal-dialog{width:855px;}
+.modal-order .modal-header{background:url(../images/order_head_bg.png) no-repeat bottom right #f7f7f7; border-bottom:1px solid #dedede; padding:25px 15px; background-size:contain;}
+.modal-order .modal-body{padding:20px 35px;}
+.modal-order .modal-body small{padding:3px 4px; background-color:#000; border-radius:4px; float:left;}
+.modal-order .modal-body .table>tbody>tr:last-child>td{background:#f7f7f7; color:#000; font-size:14px;}
+.modal-order .modal-body .table>tbody>tr:last-child>td:first-child{border-bottom:none; border-left:none; background:none;}
+.modal-order .modal-body .table>tbody>tr>td:first-child, .modal-order .modal-body .table>thead>tr>th:first-child{text-align:left !important;}
+.modal-order .modal-body summary{padding:20px 30px; border:1px solid #dddde4; border-radius:4px; background:url(../images/summary_bg.png) no-repeat center right #f7f7f7; display:block; margin-top:-20px;}
+.btn_order{margin-top:15px; padding-left:0;}
+.btn_order button{float:right;}
+.btn_order a{width:45%; color:#bebebe; }
+.btn_order a i{font-size:16px; width:35%; padding:10px; color:#bebebe;}
+.btn_order a strong{padding-top:15px; padding-left:10px; display:inline-block; color:#bebebe;}
+.btn_order button{width:auto !important; line-height:normal !important; font-size:10px; webkit-box-shadow: 2px 2px 0px -1px #da252f; -moz-box-shadow: 2px 2px 0px -1px #da252f; box-shadow: 2px 2px 0px -1px #da252f;}
+.btn_order button b{padding-top:5px; display:inline-block;}
+.btn_order button span{display:block; font-size:12px;}
+.btn_order a:hover strong{color:#000;}
+
+.modal_detail .modal-dialog{width:1240px;}
+.modal_detail .product_detail{margin:0 !important;}
+.modal-order .modal-body .table-responsive{border:none; margin-bottom:0;}
+
+/*for yes/no switch checkbox*/
+.switch {position: relative; display: inline-block; width: 65px; height: 25px;}
+.switch input {opacity:.1;}
+.slider_check {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #bdbdbd; -webkit-transition: .4s; transition: .4s; border-radius:4px; box-shadow: inset 1px -1px 9px -2px #777777,0px 3px 0px -4px #777777; -webkit-box-shadow: inset 1px -1px 9px -2px #777777,0px 3px 0px -4px #777777; -moz-box-shadow: inset 1px -1px 9px -2px #777777,0px 3px 0px -4px #777777; -o-box-shadow: inset 1px -1px 9px -2px #777777,0px 3px 0px -4px #777777;}
+.slider_check:before {position: absolute; content: ""; height: 20px; width: 30px; left: 4px; bottom: 3px; -webkit-transition: .4s; transition: .4s; z-index:10; border-radius:4px; box-shadow: 0 3px 3px -1px #999; background: #ffffff; background: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%); background: -webkit-linear-gradient(top, #ffffff 0%,#dddddd 100%); background: linear-gradient(to bottom, #ffffff 0%,#dddddd 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 );}
+input:checked + .slider_check {background-color: #da252f; box-shadow: inset 1px -1px 9px -2px #A94442,0px 3px 0px -4px #A94442; -webkit-box-shadow: inset 1px -1px 9px -2px #A94442,0px 3px 0px -4px #A94442; -moz-box-shadow: inset 1px -1px 9px -2px #A94442,0px 3px 0px -4px #A94442; -o-box-shadow: inset 1px -1px 9px -2px #A94442,0px 3px 0px -4px #A94442;}
+.slider_check:after {position: absolute; content: ""; height: 10px; width: 10px; left: 14px; bottom: 8px; -webkit-transition: .4s; transition: .4s; z-index:20; border-radius: 50%; background: #d2cbc3; background: -moz-linear-gradient(#dddddd, #ffffff); background: -ms-linear-gradient(#dddddd, #ffffff); background: -o-linear-gradient(#dddddd, #ffffff); background: -webkit-gradient(linear, 0 0, 0 100%, from(#dddddd), to(#ffffff)); background: -webkit-linear-gradient(#dddddd, #ffffff); background: linear-gradient(#dddddd, #ffffff); box-shadow: 0 -2px 5px rgba(255,255,255,0.05), 0 2px 5px rgba(255,255,255,0.1);}
+input:checked + .slider_check:before, input:checked + .slider_check:after {-webkit-transform: translateX(26px); -ms-transform: translateX(26px); transform: translateX(26px);}
+.slider_check span{display:inline-block; position:relative; font-size:10px; text-transform:uppercase; font-family:'OpenSans-Bold'; text-align:center; padding:6px; color:#fff; text-shadow: 0 1px 0 #3c4f92;}
+.slider_check span:first-child{float:left;}
+.slider_check span:last-child{float:right;}
+
+.toggle_content form.single .form_inner, .toggle_content form.doubble .form_inner2{position:relative;}
+span.help_info summary{position:absolute; z-index:99; min-width:106px; top:38px; left:auto; right:auto; width:100%; font-size:10px; padding:10px; border-radius:4px; color:#bbb; right:-40px; visibility:hidden;}
+span.help_info summary strong{font-weight:normal; color:#e0e0e0;}
+span.help_info summary:after{right:auto; left:45%;}
+span.help_info:hover summary{visibility:visible;}
+span.help_info:hover i{color:#ed1c24; border-color:#ed1c24; cursor:pointer;}
+span.help_info summary p{color:#aaa !important;}
+.live_auction .product_list .item button.btn-black{webkit-box-shadow: 2px 2px 0px -1px #da252f; -moz-box-shadow: 2px 2px 0px -1px #da252f; box-shadow: 2px 2px 0px -1px #da252f;}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+	max-height:472px;
+	max-width:100% !important;
+}
+
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-prev:before {
+    content: "\f0d9";
+    font-size: 30px !important;
+    color: #eee !important;
+}
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-prev:before {
+    font-family: "FontAwesome" !important;
+    content: '\f137';
+    font-size: 28px !important;
+    color: #6b6b6d;
+}
+
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-next:before {
+    content: "\f0da";
+    font-size: 30px !important;
+    color: #eee !important;
+}
+
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-next:before {
+    font-family: "FontAwesome" !important;
+    content: '\f138';
+    font-size: 28px !important;
+    color: #6b6b6d;
+}
+.slider_group .owl-theme .owl-controls .owl-page span{background:#fff;}
+.slider_group .owl-theme .owl-controls .owl-page span.owl-numbers{color:#000;}
+.slider_group .owl-theme .owl-controls .owl-page.active span, .slider_group .owl-theme .owl-controls.clickable .owl-page:hover span{background: #ed1c24; color:#fff;}
+
+.slider_group .owl-theme .owl-controls .owl-buttons div{background:none !important; margin:0 !important;}
+.slider_group .owl-theme .owl-controls .owl-page span.owl-numbers{border-radius:4px; font-family: 'OpenSans-Bold'; padding:2px 6px;}
+.slider_group .owl-theme .owl-controls{top:auto !important; bottom:16%; right:auto !important; width:100%; margin-top:0 !important;}
+.owl-theme .owl-buttons i{margin-top: 2px !important;}
+.slider_group .owl-pagination{text-align:left !important; margin-left:4%; position:absolute;}
+ 
+.slider_group .owl-buttons{position:absolute !important; width:100%; top:-162px !important;}
+
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-prev{position:absolute; left:0px;}
+.slider_group .owl-theme .owl-controls .owl-buttons .owl-next{position:absolute; right:0px;}
+
+/*----------------------Slider Range---Css-----------------------------------*/
+.ui-draggable, .ui-droppable {
+	background-position:center;
+}
+.input-group-btn:last-child>.ui_slider{padding:11px 12px 2px 12px;}
+.input-group-btn:last-child>.ui_slider .ui-slider, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{height:18px;}
+.ui-state-default, .ui-widget-content .ui-state-default{margin-top:3px; height:16px;}
+.input-group-btn:last-child>.ui_slider{max-height:inherit;}
+.ui_slider label{display:inline-block; width:90px; position:relative; font-size:12px; color:#6b6b6d; font-weight:normal; text-transform:uppercase; font-family: 'OpenSans-Semibold'; float:left; margin-bottom:0; margin-top:-3px;}
+.ui_slider label span{color:#ef1920;}
+#slider-range{display:inline-block; position:relative; width:72%; float:right; margin-right:15px;}
+#slider-range span{border-top-right-radius:1px; border-bottom-right-radius:1px;}
+#slider-range span+span{border-top-left-radius:1px; border-bottom-left-radius:1px; border-top-right-radius:11px; border-bottom-right-radius:11px;}
+.ui-slider-handle .ui-corner-all .ui-state-default, .ui-state-focus, .ui-state-active{outline:none !important;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{margin-left: -.6em;}
+#txt{position:absolute; top:4px; left:5px; height:inherit !important; line-height:5px; font-size:12px !important; font-family:'OpenSans-Semibold';}
+#slider-range span+span #txt{left:2px;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{font-weight:normal !important;}
+
+
+/*----------------------for---height---Css-----------------------------------*/
+.complete_auc .item{min-height:460px;}
+.winner_list .item{min-height:490px;}
+.live_auction .product_list .item{min-height:498px;}
+.live_auction .product_list img, .winner_list img, .complete_auc .item img, .bids_sec .product_list  img{max-height:110px;}
+.live_auction .product_list figure, .winner_list figure, .complete_auc .item figure, .bids_sec .product_list figure{min-height:180px;}
+
+/*----------------------Hover---Css-----------------------------------*/
+.social_head li a:hover{color:#aaa;}
+p.welcome_note a:hover, .footer_bottom p a:hover, .breadcrumb a:hover, a.title:hover{color:#000;}
+.slider-caption a.btn-black:hover, .live_auction .product_list .item button.btn-black:hover, .button_sec  button:hover, .quick_nav button:hover, .btn_sec button:hover, a.btn_abs:hover{background:#3c3b3b; color: #dfdfdf;}
+.slider-caption a.btn-black:hover .arrow, .live_auction .product_list .item button.btn-black:hover .arrow, .button_sec  button:hover .arrow, .quick_nav button:hover .arrow, .btn_sec button:hover .arrow, a.btn_abs:hover .arrow{background-color:#000;}
+.footer_top ul li a:hover{color:#ef1920; text-decoration:underline;}
+.social_head li a:hover img{opacity:.6;}
+.sec_c a:hover, .fg_pw a:hover, ol.user_head li:last-child a:hover i, .favourite.add_fav{color:#ed1c24 !important;}
+.sec_b a:hover i.fa-google-plus, .social_log ul li a:hover{background-color:#ed1c24 !important;}
+.sec_b a:hover i.fa-twitter{background-color:#5db9ff !important;}
+.sec_b a:hover i.fa-facebook{background-color:#4b70bb !important;}
+.social_log ul li:first-child a:hover{background:#4b70bb !important;}
+ol.user_head li a.dropdown-toggle:hover, ol.user_head li.open a.dropdown-toggle{color:#c1c7cf;}
+.social_log ul li a:hover span, ol.user_head li a.dropdown-toggle:hover i,  ol.user_head li a.dropdown-toggle:hover:after, ol.user_head li.open a.dropdown-toggle i,  ol.user_head li.open a.dropdown-toggle:after{color:#fff;}
+ ol.user_head li.open a.dropdown-toggle:after{content: "\f106";}
+
+.hvr-shrink{display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform}.hvr-shrink:active,.hvr-shrink:focus,.hvr-shrink:hover{-webkit-transform:scale(0.9);transform:scale(0.9)}
+
+
+
+
+/*----------------------Browser----Hack---Css-----------------------------------*/
+
+/*safari 5.1-6*/
+
+/*_::-moz-svg-foreign-content, :root .nav-sec .navbar-nav > li > a{padding:10px 11px;}*/
+
+
+/*----------------------min-responsive-css-----------------------------------*/
+
+@media (min-width:1200px){
+.container {width: 1270px; max-width:100%; display:block; float: none; margin-left: auto; margin-right: auto;}
+}
+.theme-btn{
+			outline: 0 !important;
+			color: #dfdfdf;
+			font-family: 'EurostileTBlaExt';
+			padding: 5px;
+			background: #000;
+			border: 1px solid #585858;
+			font-size: 13px;
+			border-radius: 4px;
+			padding-right: 15px;
+			line-height: 34px;
+			margin: 0 !important;
+			-webkit-box-shadow: 2px 2px 0px -1px #da252f;
+			-moz-box-shadow: 2px 2px 0px -1px #da252f;
+			box-shadow: 2px 2px 0px -1px #da252f;
+}
+.theme-btn:hover{
+	color: #dfdfdf;
+	background: #454545;
+}
+.bids_sec .product_list .item .price span:before, .product_detail .price span:before{
+	border:none;
+}
+
+.resetime {
+    left: 0;
+}
+
+.live_auction .product_list .item {
+    min-height: 387px;
+}
+.status-product-time, .theme-text-cls{
+	font-family: 'OpenSans-Bold';
+	
+}
+.status-product-new{
+    right: 0;
+    margin-right: 10px;
+    background:#000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    z-index: 46;
+    float: right;
+    margin-top:10px;
+}
+#paging span{
+	border-radius: 4px;
+    font-family: 'OpenSans-Bold';
+    padding: 2px 6px;
+    background: #000000;
+    color: #fff;
+    margin-right: 2px;
+    border: 1px solid #000000;
+}
+#paging span a{
+    color: #fff;
+}
+#paging span.active{
+	background: #ed1c24;
+    color: #fff;
+    border: 1px solid #ed1c24;
+} 
+.live_auction .product_list img, .winner_list img, .complete_auc .item img, .bids_sec .product_list img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.bid_history #example_wrapper{
+	margin-top: -20px;
+	    margin-left: 1px;
+}
+
+span.error {
+    clear: both;
+    color: #d6162d;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 3px 0 0;
+    padding: 0;
+}
+.id-label{
+	background: #000;
+    padding: 4px;
+    border-radius: 4px;
+    float: left;
+}
+.id-retail-label{
+	background: #000;
+    padding: 4px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 4px;
+    color: #fff;
+}
+.detail-modi .id{
+	padding:0;
+	background: none;
+    color: #fff;
+}
+.text-black span{
+	    color: #000 ! important;
+}
+.button_sec .dropdown-item{
+	padding: 5px;
+    width: 100%;
+    display: block;
+}
+.dtl_info .contact_us{font-size:14px;}
+.dtl_info .contact_us form label{font-weight:normal; font-family:'OpenSans-Semibold'; display:block;}
+.contact_us form label em{font-style:normal; color:#ef1920; vertical-align: sub; display:inline-block; position:relative;}
+.captcha #captcha-img img{max-height:35px; min-height:35px; max-width:100%}
+.reload_icon, .reload, .captcha #captcha-img{display:inline-block; position:relative;}
+.reload{width:15px; padding-left:10px;}
+
+.contact_us .button_sec{display:block; width:100%;}
+.contact_us .button_sec  button{display:inline-block; width:auto;}
+
+.contact_content
+{
+	padding: 17px;
+}
+.help-desc {
+    color: #848484;
+    padding: 15px;
+    border-bottom: 1px solid #dedede;
+    background-color: #ffffff;
+}
+.error{
+	color: #f00;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.navigation
+{
+	    z-index:8;
+}
+
+
+.main_loader.img-loader{ position: fixed; z-index:1090;top: 0; bottom: 0; left: 0; right: 0;-webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;}
+.main_loader.img-loader .fa-spinner { font-size: 40px; color:white; left: 50%; z-index:13;position: absolute; top: 50vh; margin-top: -20px; }
+.main_loader.img-loader:before { content:' '; position: absolute; top:0; bottom:0; left:0; right:0; background-color:rgba(0,0,0,0.4); }
+
+.user_box_head
+{
+	width:390px;
+}
+.buy-bids-single-content{}
+.buy-bids-single-content label{
+	cursor: pointer;
+}
+.buy-bids-single-content .control-label{
+	width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.user_info p.welcome_note a{padding:0px 10px; line-height:16px; display:inline; font-size:16px; color:#444;}
+.user_info p.welcome_note a:hover{color:#88B04B;}
+.regi-block-sec{ background:#8A7560; padding:20px; border:1px solid #8A7560;border-right:1px solid #6A5949;border-bottom:1px solid #6A5949; margin-top:40px; min-height:211px;}
+.buybid-block-sec{ background:#FF632F;padding:20px;border:1px solid #FF632F;border-right:1px solid #C34C24;border-bottom:1px solid #C34C24;margin-top:40px;min-height:211px;}
+.bidwin-block-sec{ background:#838488;padding:20px;border:1px solid #838488;border-right:1px solid #646568;border-bottom:1px solid #646568;margin-top:40px;min-height:211px;}
+
+.whi-cirle{ background:#fff; width:70px; height:70px; border-radius:100px; margin:0 auto;}
+.icon-size{ font-size:40px; text-align:center; color:#8A7560; margin-top:10px; margin-left:15px;}
+.bid-icom-hammer{ color:#838488;}
+.pound-img{ background:url(../images/pound.png) no-repeat 0 0; width:29px; height:55px; margin:0 auto; display:block;}
+.regi-block-sec h2, .buybid-block-sec h2, .bidwin-block-sec h2{ font-size:18px; color:#fff; font-weight:bold; text-align:center;}
+.regi-block-sec p, .buybid-block-sec p, .bidwin-block-sec p{ font-size:14px; color:#DDDDDD; text-align:center;}
+.item-name-txt{background: linear-gradient(to bottom, #fff, #f0f0f0);font-size:16px; color:#000; text-align:center; padding:10px 0; margin:0; line-height:30px;}
+.item-name-txt a{ margin:0px!important;}
+.info-product-price span{ color:#87B04B!important; font-weight:bolder;}
+.grey-bg-sec{background:#f0f0f0!important; padding:15px 0;}
+.btn-grn{ background:#88B04B!important; font-size:20px; color:#fff!important; border:0!important; border-radius:0!important; box-shadow:none!important;}
+.btn-grn span{color:#fff!important;}
+.btn-grn:hover{background:#6B8B3A!important; } 
+.bor-line{ border-bottom:1px solid #aaa; padding:0px 0 10px;}
+.status-product-time{ font-size:30px!important; color:#838487!important;}
+.footer_bottom p a{ color:#87B04B;}
+.payment-bg-sec{background:#f1f1f1;padding:20px; margin:0;}
+.payment-bg-sec ul{ margin:0px 0 0 0; padding:0;}
+.payment-bg-sec ul li{ background:#f9f9f9; border:1px solid #ddd; padding:10px;margin:10px; display:inline-block;}
+.location-sec{background:#FF632F;padding:20px; margin:0; overflow:hidden; font-size:18px; color:#fff;}
+.location-sec a{color:#fff; text-decoration:none;}
+.location-sec a:hover{color:#fff; text-decoration: underline;}
+.signup_sec h2 span{ color:#fff!important;}
+.end-price{font-size:26px; color:#FF8A65; font-weight:bold!important;}
+.end-normal-price{font-size:26px; color:#87B04B; font-weight:bold!important;}
+.end-win-name{font-size:16px!important; color:#838487!important; font-weight:normal!important;}
+.btn-lightgrn{ background:#829D8A!important; font-size:20px; color:#fff!important; border:0!important; border-radius:0!important; box-shadow:none!important;}
+.btn-lightgrn:hover{background:#65816D!important; }
+.dtl_ttl h1 span{ color:#000!important;}
+.theme-text-cls span.current-bid-amt{color:#87B04B!important;}
+.form-group h5 span{color:#000!important;}
+.bid_history h2 span{color:#000!important;}
+.description h2 span{color:#000!important;}
+.footer_top .social_like li a{background:#88B04B !important;color:#FFF !important;width:35px;height:35px;border-radius:100%;display:block;font-size:20px;text-align:center;padding:7px;margin-right:5px;}
+.footer_top .social_like li a:hover{background:#FFF !important;color:#88B04B !important;}
+.btn-fb{	font-family: 'EurostileTBlaExt';
+			padding: 5px;
+			font-size: 13px;
+			border-radius: 4px;
+			padding-right: 15px;
+			line-height:25px;
+			margin: 0 !important;}
+			
+.fb-btn-login{border:0!important; border-radius:0!important; box-shadow:none!important; margin-top:15px;}
+.inner-bg-area{ background:#fff; padding:20px; margin-top:-10px; margin-bottom:20px;}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+
+.rslides_tabs {
+  list-style: none;
+  padding: 0;
+  font-size: 1.4em;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 390px;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  }
+
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+  }
+
+.rslides_tabs a {
+  width: auto;
+  line-height: 20px;
+  padding: 3px 11px;
+  height: auto;
+  background: transparent;
+  display: inline;
+  color:#626262;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+  }
+
+.rslides_tabs li:first-child {
+  margin-left: 0;
+  }
+
+.rslides_tabs .rslides_here a {
+  background: #626262;
+  color: #fff;
+  font-weight: bold;
+text-shadow: -1px -1px 0px rgba(48, 48, 48, 1);
+  }
+  
+  
+.howit-area {
+	padding:0px;
+	border:1px solid #DCDCDC;
+	width:100%;
+	background:#fff;
+	position:relative;
+}
+  
+.howit-area img{
+	display: block;
+height: auto;
+float: right;
+width: 100%;
+border: 0;
+	max-width:900px;
+	margin-top:2%;
+	}  
+	
+.howit-area .rslides_tabs{
+	margin-top:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-top:1px #dcdcdc solid;
+	border-bottom:1px #dcdcdc solid;
+	}	
+	
+.rslides_nav{
+	z-index: 3;
+	position: absolute;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	top: 50%;
+	left: 0;
+	opacity: 0.7;
+	text-indent: -9999px;
+	overflow: hidden;
+	text-decoration: none;
+	height: 61px;
+	width: 38px;
+	background:url(../images/themes.gif) no-repeat left top ;
+	margin-top: -45px;
+	}
+	
+.rslides_nav.next {
+left: auto;
+background-position: right top;
+right: 0;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".midmnu a span").hover(function(){$(this).fadeTo("opacity",0.33);$(this).fadeTo("opacity",1);return false;},function(){$(this).fadeTo("opacity",1);});$(".topnav a").hover(function(){$(this).fadeTo("opacity",0.33);$(this).fadeTo("opacity",1);return false;},function(){$(this).fadeTo("opacity",1);});});

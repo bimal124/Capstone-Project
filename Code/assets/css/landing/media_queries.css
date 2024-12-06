@@ -1,0 +1,1429 @@
+@media only screen and (max-width :1050px){	
+.images .img_sec .tv{
+	max-width:250px;
+	}
+.images .img_sec .fix_mid{
+	z-index:999;
+	}	
+.images .img_sec .game{
+	z-index:99;
+	}	
+	
+}
+
+@media only screen and (max-width :1030px){
+.images .img_sec .tv {
+	max-width: 220px;
+	margin-right:2%;
+}
+
+.images .img_sec .fix_rgt{
+	right:17.5%;
+	}
+
+.images .img_sec .game{
+	right:17%;
+	}
+	
+.images .img_sec .fix_mid{
+	bottom: -10px;
+	left: 32.5%;
+	}	
+
+.images .img_sec .fix_left {
+	top: 260px;
+	left: 4%;
+}
+
+	
+}
+
+@media only screen and (max-width :1000px){
+.images .img_sec .fix_rgt{
+	right:18%;
+	max-width:130px;
+	}	
+.images .img_sec .tv{
+	max-width:210px;
+	}
+.images .img_sec .fix_left {
+	top: 260px;
+	left: 6.5%;
+	max-width: 330px;
+}
+.images .img_sec .fix_mid {
+	bottom:-10px;
+	left: 30.8%;
+}
+}
+
+@media only screen and (max-width :980px){
+
+.images .img_sec .more{
+	right:5%;
+	}
+	
+.images .img_sec .game {
+	right: 16%;
+}	
+
+}
+
+@media only screen and (max-width :950px){
+	
+form.form{
+	width:39%;
+	}	
+	
+.images .img_sec .frst{
+	left:4%;
+	max-width: 220px;	
+	}
+
+.images .img_sec .fix_left {
+	top: 265px;
+	left: 5%;
+}
+	
+.images .img_sec .tv {
+	max-width:200px;
+}	
+
+.images .img_sec .fix_rgt{
+	top: 170px;
+	right: 16.5%;
+	}
+	
+.images .img_sec .game{
+	right: 17%;
+	max-width: 220px;
+	bottom:40px;
+}	
+
+.images .img_sec .fix_mid{
+	left:31%;
+	bottom:0;
+	}
+
+.mid_sec{
+	min-height:620px;
+	}
+
+.images .img_sec .more{
+	bottom:-20px;
+	}
+
+.nin_off{
+	right:22%;
+	}
+.btm{
+	right:0;
+	}
+
+}
+
+@media only screen and (max-width :930px){
+.images .img_sec .fix_left {
+	top: 250px;
+	left: 4%;
+}
+
+.images .img_sec .game{
+	right:16.3%;
+	bottom:30px;
+	}
+
+.images .img_sec .fix_mid {
+	left: 30%;
+	bottom:0px;
+}
+
+.btm{
+	top:-10px;
+	}
+	
+.btm img {
+	width: 90%;
+	margin-right: -25px;
+}	
+
+	
+}
+
+@media only screen and (max-width :900px){
+	
+.images .img_sec .tv {
+	max-width: 180px;
+}	
+	
+.images .img_sec .fix_rgt{
+	right: 15%;	
+	}	
+
+.images .img_sec .game{
+	right:14.8%;
+	}
+
+.images .img_sec .frst {
+	left: 3%;
+	max-width: 200px;
+}
+
+.images .img_sec .fix_left{
+	left:2%;
+	}
+
+.images .img_sec .fix_mid {
+	left: 30%;
+	bottom:-3px;
+}
+
+h1, h2, h3{
+	text-align:left;
+	padding-left:5%;
+	}
+
+}
+
+@media only screen and (max-width :871px){
+
+form.form label{
+	width:22%;
+	margin-right:3%;
+	}
+form.form input{
+	width:63%;
+	}
+	
+.images .img_sec .game {
+	right: 13%;
+}
+
+
+}
+
+@media only screen and (max-width :850px){
+
+.images .img_sec .fix_left{
+	max-width:280px;
+	left: 4%;
+	top: 260px;	
+	}
+
+.images .img_sec .fix_mid {
+	left: 26%;
+}
+
+.images .img_sec .game {
+	right: 15.5%;
+	bottom:30px;
+}
+
+.images .img_sec .tv {
+	max-width: 150px;
+}
+}
+
+@media only screen and (max-width :800px){
+
+.images .img_sec .game {
+	right: 14.5%;
+	bottom: 96px;
+	max-width:200px;
+}
+
+form.form {
+	width: 46.2%;
+}
+
+.images .img_sec .fix_rgt {
+	top:250px;
+	right: 14%;
+	max-width: 100px;
+}
+
+.images .img_sec .game {
+	right: 15%;
+	bottom:48px;
+}
+
+.images .img_sec .fix_left {
+	max-width: 250px;
+}
+.images .img_sec .fix_mid{
+	bottom:20px;
+	left:26.5%;
+	max-width:280px;
+	}
+
+.mid_sec {
+	min-height:600px;
+	background-position:0 -60px;
+}
+
+.images .img_sec .more {
+	bottom:-10px;
+}
+
+.images .img_sec .fix_left{
+	top: 250px;
+	left: 1%;	
+}
+
+.images .img_sec .tv{
+	top:30px;
+	}
+
+.images .img_sec .frst {
+	left:1.5%;
+	max-width: 180px;
+	top:25px;
+}
+
+h1{
+	font-size:26px;
+	}
+h2{
+	font-size:13px;
+	}
+
+.nin_off {
+	right: 15%;
+}
+.btm{
+	right:0;
+	}
+	
+}
+
+@media only screen and (max-width :789px){
+.images .img_sec .fix_left {
+	top: 268px;
+	left: 2%;
+}
+
+}
+
+
+@media only screen and (max-width :780px){
+
+.images .img_sec .frst {
+	left: 2%;
+	max-width: 150px;
+	top:50px;
+}
+
+.images .img_sec .tv {
+	max-width: 120px;
+	right: 2%;
+}
+
+.nin_off {
+	right: 15%;
+	width: 15%;
+}
+
+.btm{
+	right:0;
+	width:auto;
+	}
+.images .img_sec .fix_left{
+	top:240px;
+	max-width: 220px;
+	left:2.5%;
+	}
+
+.images .img_sec .fix_rgt {
+	top: 220px;
+}
+	
+.images .img_sec .fix_mid{
+	bottom:40px;
+	left: 26.5%;
+	max-width: 250px;	
+	}
+	
+.images .img_sec .game {
+	right: 17.2%;
+	bottom:65px;
+}	
+form.form ul li.code p{
+	padding-left:26%;
+	}
+
+}
+
+@media only screen and (max-width :750px){
+
+.images .img_sec .fix_mid{
+	max-width:253px;
+	}
+	
+.images .img_sec .game {
+	right: 15%;
+	bottom: 68px;
+}	
+
+}
+
+@media only screen and (max-width :730px){
+
+.images .img_sec .frst{
+	left:0;
+	}
+	
+form.form {
+	width: 50%;
+}	
+
+.images .img_sec .game {
+	right:13.5%;
+}
+
+.images .img_sec .fix_rgt {
+	top: 230px;
+	right: 10%;
+}
+
+.images .img_sec .fix_left {
+	top: 270px;
+	left: 1.5%;
+}
+
+}
+
+@media only screen and (max-width :700px){
+.images .img_sec .tv{
+	top:20px;
+	right:0;
+	}
+
+.images .img_sec .frst {
+	left: 1%;
+	max-width: 140px;
+	top:80px;
+}
+
+.nin_off{
+	right:14%;
+	}
+.btm{
+	right:0;
+	}	
+	
+.images .img_sec .fix_mid{
+	left:23%;
+	bottom:20px;
+	}	
+
+.images .img_sec .game {
+	right: 14%;
+	bottom:40px;
+}
+
+.images .img_sec .tv {
+	top:50px;
+	right: 1%;
+	max-width: 110px;
+}
+
+}
+
+@media only screen and (max-width :680px){
+
+.images .img_sec .game{
+	right:10%;
+	bottom:35px;
+	}
+	
+.images .img_sec .fix_mid {
+	left: 25%;
+	bottom:10px;
+}	
+
+.images .img_sec .fix_left {
+	top: 290px;
+	left: 1%;
+}
+
+.images .img_sec .more {
+	bottom: -15px;
+}
+
+.images .img_sec .fix_rgt{
+	top:250px;
+	}
+
+h1 {
+	font-size: 23px;
+}
+
+.images .img_sec .tv {
+	top: 75px;
+}
+	
+}
+
+
+@media only screen and (max-width :650px){
+
+.mid_sec .prdct_sec {
+	padding: 35px 0 0;
+}
+
+.images .img_sec{
+	background-position:46% 98%;
+	}
+	
+.images .img_sec .tv {
+	top: 80px;
+	right: 2%;
+	max-width: 90px;
+}
+
+.images .img_sec .frst {
+	left: 1%;
+	max-width: 120px;
+}
+
+.images .img_sec .fix_left {
+	top: 240px;
+	left: 1%;
+	max-width: 190px;
+}
+
+.images .img_sec .fix_rgt {
+	right: 8%;
+}
+
+.images .img_sec .fix_mid {
+	left: 20%;
+	bottom:25px;
+}
+
+.images .img_sec .game {
+	right: 13%;
+	bottom:45px;
+	max-width: 195px;
+}
+
+}
+
+@media only screen and (max-width :630px){
+.images .img_sec .game {
+	right: 11%;
+}
+
+}
+
+@media only screen and (max-width :620px){
+form.form label {
+	width: 25%;
+}
+
+.images .img_sec .game {
+	right:9%;
+}
+
+.images .img_sec .fix_left{
+	top:270px;
+	}
+}
+
+@media only screen and (max-width :600px){
+form.form ul li.code p {
+	padding-left: 24%;
+	padding-top:5px;
+}	
+form.form ul li.btn {
+	margin-top: -8px;
+}
+form.form ul li.code input#chck{
+	left:15%;
+	}
+
+.images .img_sec{
+	display:block;
+	position:relative;
+	min-height:520px;
+	background-image:url(../images/landing/shdow.png);
+	background-repeat:no-repeat;
+	background-position: 50% 110%;
+	background-size: 412px 239px;
+	-moz-background-size:56% 45.4%;
+	-webkit-background-size:56% 45.4%;
+	-o-background-size:56% 45.4%;
+}
+
+.images .img_sec .fix_left {
+	top: 260px;
+	left: 2%;
+}
+
+.images .img_sec .fix_mid {
+	left: 18.8%;
+	bottom:30px;
+}
+
+.images .img_sec .game {
+	right:8%;
+	bottom:55px;	
+	max-width: 185px;
+}
+
+
+.images .img_sec .more {
+	bottom:0;
+}
+
+.btm img {
+	width: 82%;
+	margin-right: -47px;
+}
+
+h1{
+	font-size: 21px;
+	line-height: 20px;	
+	padding-top:20px;	
+	}
+h2{
+	font-size:12px;
+	}	
+h3 a{
+	line-height:20px;
+	}
+	
+#ftr{
+	min-height:120px;
+	}
+	
+.images .img_sec .frst{
+	left:0;
+	top:100px;
+	}
+
+.images .img_sec .tv {
+	top: 100px;
+	right: 1%;
+}
+
+}
+
+@media only screen and (max-width :580px){
+
+form.form{
+	padding:20px 15px 0px;
+	}
+form.form input{
+	width:62%;
+	}	
+	
+.images .img_sec .fix_left {
+	left: 1.5%;
+}	
+.images .img_sec .game {
+	right: 8.5%;
+}
+
+.images .img_sec .fix_rgt {
+	right: 6.5%;
+}
+.images .img_sec .tv, .images .img_sec .frst{
+	right:0;
+	top:100px;
+	}
+	
+.images .img_sec{
+	-moz-background-size: 56% 46.3%;
+	-webkit-background-size: 56% 46.3%;
+	-o-background-size: 56% 46.3%;	
+	}	
+	
+
+@-moz-document url-prefix() {
+
+form.form input {
+    width: 58%;
+}
+	
+form.form {
+    width: 68%;
+}
+.images .img_sec .fix_left{
+	top:292px;
+	}
+	
+.images .img_sec .fix_rgt {
+    right: 2%;
+    top: 250px;
+}
+
+.images .img_sec .fix_mid {
+    bottom: 20px;
+    left: 21%;
+}
+
+.nin_off {
+    right: 5%;
+    top: -15px;
+}
+
+.btm{
+	right:0;
+	}
+
+}	
+
+
+}
+
+@media only screen and (max-width :570px){
+
+form.form ul li.btn {
+margin-top: -7px;
+}
+
+form.form ul li.code p {
+	padding-left: 17%;
+	padding-top:5px;
+}
+form.form ul li.code input#chck{
+	left:9%;
+	}
+.nin_off {
+	right: 12%;
+	top: -15px;
+}
+.btm{
+	right:0;
+	}
+
+.images .img_sec .frst{
+	left:0;
+	top:110px;
+	}
+	
+.images .img_sec .fix_mid {
+	left: 19%;
+	bottom: 35px;
+	max-width: 245px;
+}
+.images .img_sec .fix_left {
+	left: 1%;
+	top: 275px;
+}
+
+.images .img_sec .more {
+	bottom: -12px;
+}
+
+.images .img_sec .game {
+	right: 5%;
+	bottom: 60px;
+}
+.images .img_sec .fix_rgt {
+	top: 240px;
+}
+
+.btm img {
+	width: 62%;
+	margin-right: -60px;
+	margin-top: 20px;
+}
+
+@-moz-document url-prefix() {
+.images .img_sec .fix_left{
+	top:290px;
+	}
+
+}
+
+}
+
+@media only screen and (max-width :550px){
+
+.images .img_sec .frst {
+	left: 2%;
+	max-width: 100px;
+	top:120px;
+}
+
+.images .img_sec .fix_rgt {
+	right: 5%;
+	top:244px;
+}
+
+.images .img_sec .game {
+	right: 4%;
+	}
+	
+.images .img_sec .fix_mid{
+	left:18.3%;
+	}
+.nin_off {
+	right: 12%;
+	top: -20px;
+}	
+
+.btm {
+	right: 0;
+	top:-10px;
+}
+h1{
+	font-size:18px;
+	}	
+	
+form.form label {
+	width: 27%;
+	margin-right:5%;
+}	
+form.form input {
+	width: 60%;
+}
+	
+}
+
+@media only screen and (max-width :500px){
+	
+#hdr{
+	background-position:0 -10px;
+	padding-top:45px;
+	}	
+	
+#hdr .logo-sec a{
+	width:80%;
+	margin:0 auto;
+	}
+#hdr .logo-sec a img{
+	width:55%;
+	height:auto;
+	}
+
+form.form input{
+	height:25px;
+	}
+	
+.images .img_sec .fix_left {
+	top: 208px;
+	left: 2%;
+	max-width: 160px;
+}
+
+.images .img_sec{
+	-moz-background-size:56% 50%;
+	-webkit-background-size:56% 50%;
+	-o-background-size:56% 50%;	
+	}
+
+.images .img_sec .fix_mid {
+	bottom: 75px;
+	left: 11%;
+	max-width: 240px;
+}
+.images .img_sec .game{
+	right:7.2%;
+	}
+
+.images .img_sec .tv {
+	top: 50px;
+	max-width: 80px;
+}
+
+.images .img_sec .frst {
+	left: 1%;
+	top: 70px;
+}
+
+@-moz-document url-prefix() { 
+
+form.form label {
+    margin-right: 3%;
+    width: 29%;
+}
+.images .img_sec{
+	background:none;
+	}
+
+.images .img_sec .fix_mid {
+    bottom: 35px;
+    left: 6.5%;
+}
+
+.images .img_sec .fix_left {
+    left: 1%;
+    top: 260px;
+}
+.images .img_sec .tv{
+	top:90px;
+	}
+.images .img_sec .frst{
+	top:100px;
+	}
+
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width :480px){
+
+form.form ul li.code input#chck{
+	left:8%;
+	}
+
+form.form ul li.code p {
+	padding-left: 15%;
+	padding-top: 5px;
+}
+
+form.form ul li.btn {
+	margin-top: -10px;
+}
+
+form.form {
+	width: 60%;
+}
+
+.images .img_sec .frst {
+	top:120px;
+	max-width:80px;
+	left:0;
+}
+
+.images .img_sec .fix_rgt {
+	right: 1%;
+	max-width: 80px;
+	top: 220px;
+}
+
+.images .img_sec .game {
+	right: 1%;
+	bottom: 105px;
+	max-width: 160px;
+}
+
+.images .img_sec .fix_mid {
+	bottom:85px;
+	left:19%;
+	max-width: 220px;
+}
+
+.images .img_sec .more {
+	bottom:25px;
+}
+
+.images .img_sec .tv {
+	top:105px;
+	max-width: 60px;
+	right: 0;
+}
+
+.btm img {
+	width: 58%;
+	margin-right: -88px;
+	margin-top: 20px;
+}
+
+.images .img_sec .fix_left {
+	left: 1%;
+	max-width: 150px;
+	top: 250px;
+}
+
+.images .img_sec {
+	-moz-background-size: 67% 50%;
+	-webkit-background-size: 67% 50%;
+	-o-background-size:67% 50%;
+}
+
+.mid_sec{
+	min-height:570px;
+	}
+
+.nin_off {
+	right: 8%;
+	width: 17%;
+}
+
+.btm{
+	width:auto;
+	right:0;
+	}
+	
+@-moz-document url-prefix() { 
+form.form label {
+    margin-right: 4%;
+    width: 29%;
+}
+form.form input {
+    width: 58%;
+}
+.images .img_sec{
+	background:none;
+	}
+	
+.nin_off{
+	right:5%;
+	}
+.btm{
+	right:0;
+	}	
+	
+.images .img_sec .tv{
+	margin-right:0;
+	max-width:75px;
+	}	
+
+.images .img_sec .fix_left {
+    top: 268px;
+}
+
+.images .img_sec .game {
+    right: 4%;
+}
+.images .img_sec .fix_mid{
+	left:17%;
+	}
+
+}
+
+}
+
+@media only screen and (max-width :450px){
+
+#hdr .logo-sec a img{
+	width:50%;
+	}
+	
+.mid_sec .prdct_sec {
+	padding: 25px 0 0;
+}	
+
+.images .img_sec .fix_left {
+	top: 215px;
+	left: 3%;
+	max-width: 150px;
+}
+
+.images .img_sec .fix_rgt {
+	right: 5%;
+	top: 180px;
+	max-width: 80px;
+}
+
+.images .img_sec {
+	-moz-background-size: 56% 58%;
+	-webkit-background-size: 56% 58%;
+	-o-background-size: 56% 58%;
+}
+
+.images .img_sec .game {
+	right: 4.5%;
+	bottom: 145px;
+	max-width: 150px;
+}
+
+.images .img_sec .fix_mid {
+	bottom: 125px;
+	left: 20%;
+	max-width: 200px;
+}
+
+.mid_sec {
+	min-height: 520px;
+}
+
+.images .img_sec .more {
+	bottom: 68px;
+}
+
+}
+
+@media only screen and (max-width :430px){
+
+.images .img_sec .game {
+	right: 3%;
+	max-width: 140px;
+}
+
+.images .img_sec .fix_rgt{
+	top:170px;
+	right:4%;
+	}
+.images .img_sec .fix_left{
+	left:2%;
+	}	
+.images .img_sec .fix_mid {
+	bottom: 135px;
+	left: 21%;
+	max-width: 180px;
+}	
+
+.images .img_sec .game {
+	right: 7%;
+	max-width: 140px;
+	bottom: 155px;
+}
+
+.images .img_sec .more {
+	bottom:70px;
+}
+
+.btm{
+	display:none;
+	}
+h1, h2, h3 {
+	text-align:center;
+	padding-left:0;
+}	
+
+form.form label{
+	width:18%;
+	margin-right:11%;
+}
+
+}
+
+@media only screen and (max-width :400px){
+form.form {
+	width: 80%;
+}
+
+.images .img_sec .frst, .images .img_sec .tv {
+	display:none;
+}
+
+.nin_off {
+	right: 0%;
+	top: 0;
+	width:20%;
+	z-index:99911;
+}
+
+.images .img_sec .fix_rgt {
+	top: 190px;
+	right:2%;
+}
+
+form.form label {
+	width: 20%;
+	margin-right: 5%;
+}
+
+.images .img_sec{
+	background:none;
+	/*-moz-background-size: 87.8% 58.2%;
+	-webkit-background-size: 87.8% 58.2%;
+	-o-background-size: 87.8% 58.2%;*/
+}
+
+.images .img_sec .fix_left{
+	top:230px;
+	}
+.images .img_sec .game{
+	right: 3%;
+	bottom: 160px;
+	}	
+.images .img_sec .fix_mid {
+	bottom: 147px;
+	left: 26.65%;
+	max-width: 150px;
+}
+.images .img_sec .more {
+	bottom: 75px;
+	right: 31%;
+}
+
+#ftr {
+	min-height: auto;
+	padding: 15px 0 10px;
+}
+
+
+	
+@-moz-document url-prefix() {
+form.form label{
+	width:25%;
+	}
+
+.images .img_sec .fix_rgt {
+    max-width: 70px;
+    right: 0;
+    top: 220px;
+}
+.images .img_sec .fix_left {
+    left: 0;
+    top: 265px;
+}
+.images .img_sec .fix_mid{
+	bottom:120px;
+	}
+
+.images .img_sec .game {
+    bottom: 140px;
+    max-width: 120px;
+    right: 2%;
+}
+
+}	
+
+
+}
+
+
+@media only screen and (max-width :380px){
+
+form.form label{
+	width:24%;
+	}
+
+#hdr .logo-sec a{
+	width:100%;
+	}
+
+.images .img_sec .fix_mid{
+	left: 26%;
+	max-width: 138px;
+	bottom:120px;
+	}
+.images .img_sec .game, .images .img_sec .fix_rgt{
+	right:0;
+	}	
+.images .img_sec .fix_left {
+	top: 270px;
+	left: 0;
+}	
+
+.images .img_sec .fix_rgt{
+	top:220px;
+	max-width:70px;
+	}
+.images .img_sec .game{
+	bottom:130px;
+	right:5%;
+	}
+.images .img_sec .more{
+	bottom:67px;
+	}
+}
+
+@media only screen and (max-width :350px){
+.images .img_sec .fix_rgt{
+	display:none;
+	}
+.images .img_sec .game{
+	right:0.5%;
+	bottom:190px;
+	max-width:110px;
+	}	
+.images .img_sec .fix_left{
+	max-width:130px;
+	}	
+
+.images .img_sec .fix_mid {
+	left: 21.5%;
+	max-width: 180px;
+}	
+
+@-moz-document url-prefix() { 
+
+form.form label {
+    margin-right: 3%;
+    width: 28%;
+}
+}
+
+
+}
+
+@media only screen and (max-width :330px){
+
+form.form ul li{
+	padding-bottom:5px;
+	}
+form.form button{
+	margin-left:7%;
+	}	
+.images .img_sec .fix_mid {
+	max-width: 160px;
+	bottom: 10px;
+	left: 45%;
+	}
+
+.images .img_sec .more {
+	bottom:-60px;
+}
+
+.mid_sec {
+	min-height:660px;
+	background-position:0 0px;
+}
+
+h1, h2{
+	padding:0 10px;
+	line-height:20px;
+	}
+
+h1{
+	padding-top:15px;
+	padding-bottom:5px;
+	}
+
+form.form label, form.form ul li.code label{
+	display:block;
+	float:none;
+	width:70%;
+	margin:0;
+	text-align:left;
+	padding-left:7%;
+	line-height:25px;
+	}
+	
+form.form input {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}	
+
+.images .img_sec .game{
+	display:none;
+	}
+.images .img_sec .fix_left{
+	top:409px;
+	max-width:152px;
+	left:3%;
+}
+form.form ul li.btn {
+	margin-top: 0;
+}
+
+}
+
+@media only screen and (max-width :320px){
+.images .img_sec .more {
+	right: 28%;
+}
+
+.images .img_sec .fix_left {
+	top: 412px;
+	max-width: 148px;
+	left: 1%;
+}
+form.form ul li.code input#chck{
+	left:6%;
+	}
+form.form ul li.code p {
+	padding-left: 15%;
+	padding-top: 5px;
+}
+
+
+
+}
+
+@media only screen and (max-width :300px){
+
+.images .img_sec .fix_left{
+	display:none;
+	}
+
+.nin_off {
+	width:25%;
+}
+
+.images .img_sec .fix_mid {
+	max-width: 250px;
+	bottom: -50px;
+	left: 9%;
+}
+
+.images .img_sec .more {
+	bottom: -100px;
+	right:28%;
+}
+
+.mid_sec {
+	min-height: 685px;
+}
+
+}
+
+
+@media only screen and (max-width :275px){
+
+.images .img_sec .fix_mid {
+	max-width: 220px;
+	bottom:-35px;
+}
+
+.images .img_sec .more {
+	bottom: -92px;
+}
+
+
+@-moz-document url-prefix() { 
+
+.images .img_sec .fix_mid{
+	max-width:200px;
+	}
+}
+
+
+}
+
+
+@media only screen and (max-width :250px){
+.images .img_sec .fix_mid{
+	left:6%;
+	}
+.images .img_sec .more{
+	right:20%;
+	}	
+
+}
+
+@media only screen and (max-width :237px){
+.images .img_sec .fix_mid {
+	max-width: 210px;
+}
+h1, h2{
+	display:block;
+	padding-bottom:10px;
+	}
+	
+form.form button{
+	margin-top:8px;
+	background-position:-45px -5px;
+	}
+}
+
+@media only screen and (max-width :225px){
+
+.images .img_sec .fix_mid {
+	max-width: 190px;
+	left: 8%;
+	bottom:-20px;
+}
+.images .img_sec .more {
+	bottom: -70px;
+	right: 17%;
+}
+
+.mid_sec {
+	min-height: 650px;
+}
+.nin_off {
+	width: 28%;
+}
+}
+
+@media only screen and (max-width :200px){
+
+.images .img_sec .fix_mid {
+	max-width: 172px;
+}
+
+}

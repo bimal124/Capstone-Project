@@ -1,0 +1,520 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1100px){
+	.button_sec button {
+	    margin: 0 !important;
+	    width: 100%;
+	    box-shadow: none;
+	    color: #FFF;
+	    font-size: 16px;
+	    font-weight: 400;
+	}
+}
+@media only screen and (max-width:1199px) {
+	.slider-caption{left:7%;}
+	.slider-caption.time_caption{left:0% !important;}
+	.slider_group .owl-pagination{margin-left:7%;}
+	/*.navigation .navbar-nav>li{width:5.6%;}
+	.navigation .navbar-nav>li.live_bid_auc{width:12.9%;}
+	.navigation .navbar-nav>li.abt_us{width:11.1%;}
+	.navigation .navbar-nav>li.winner-txt{width:8.1%;}*/
+	.footer_top .col-md-4, .footer_top .col-md-2, .footer_top .col-md-2.footer_nav{padding-left:0;}
+	.detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6{padding-right:0;}
+	 .description, .history_detail{padding-right:15px;}
+	  .description, .history_detail{border-right:none;}
+	.detail_inner form .form_inner, .detail_inner form .form_inner2{padding-bottom:15px;}
+	.social_log ul li a{padding-bottom:10px;}
+	table.display{width:95%;}
+	.sprite a{margin-left:5px;}
+	.sprite .paypal > a{width:110px;}
+	.sprite .visa > a{width:72px;}
+	.sprite .master-card > a{width:52px;}
+	.how_work cite{margin-bottom:15px;}
+	p.welcome_note{margin-top:15px;}
+	ul.social_head, .stickyheader .sticky_logo img{margin-top:10px;}
+	.detail_inner form center,.sec_b ul li{margin-top:0px;}
+	.hidden_div{right:-0.13em;}
+	.margin_manage{margin-right:-1px;}
+	.bid_pramotion ul li{width:24.3%; padding:57px 10px;}
+	.detail_inner{padding-right:15px; border-right:none;}
+	.row_a .id{top:-5px;}
+	.detail_inner h1, .history_detail h1{min-height:auto; max-height:inherit; padding-bottom:15px;}
+	.right_info .sec_a, .right_info .sec_b, .right_info .sec_c, .right_info .sec_d{display:inline-block; position:relative; width:25%; float:left; padding:0; border:none; border-top:1px solid #ddd; padding-top:10px; vertical-align:middle; text-align:center;}
+	.right_info .sec_c{padding-top:15px; padding-bottom:10px;}
+	.sec_b ul li, .sec_d .cash_refund, .sec_d .cash_in{display:inline-block; position:relative;}
+	.sec_c a, .sec_a{padding:0px; border:none;}
+	.right_info .sec_a{width:10%; padding-top:30px;}
+	.right_info .sec_b{width:40%;}
+	.right_info .sec_b ul, .right_info .sec_b b, .right_info .sec_b strong{display:inline-block; position:relative;}
+	.bid_pramotion cite, .social_log ul li a i{font-size:18px;}
+	.buy_credit big{font-size:16px;}
+	.detail_inner h1, .history_detail h1{font-size:14px;}
+	.navigation .navbar-nav>li a{ padding:0 5px;}
+	.detail_inner form b{font-size:12px;}
+	.footer_top ul li a{font-size:11px;}
+	.sec_b ul li{padding:4px;}
+	.exit_user form, .new_user .gray_box{padding:20px; padding-top:30px;}
+	#slider-range, .signup_sec button{width:62%;}
+	.form_field, .form_btm{padding:40px 70px 30px 70px;}
+	.right_info .history_right_info{border-top: 1px solid #ddd;}
+	.right_info .history_right_info .sec_a, .right_info .history_right_info .sec_b, .right_info .history_right_info .sec_c, .right_info .history_right_info .sec_d{border-top:none;}
+	.history_inner ul li span{padding:0.32em;}
+	.winner_info ol:hover{background-position:90px;}
+	.select_sec select{width:31.7%;}
+	.quick_nav ul li a, .quick_na{padding:20px 30px;}
+	.cr_box, .trans_tbl ol li{width:100%;}
+	.trans_tbl ol li{display:block; margin-bottom:10px;}
+	.trans_tbl .table>tbody>tr>td span{float:right;}
+	.table_res.table-responsive table{width:100%; min-width:1024px;}
+	.table_res table.display>tbody>tr, .table_res table.display>thead>tr{width:97%;}
+	.table_res.table-responsive table{margin-left:2px;}
+	.sprite2 a{margin-left:5px;}
+	.group2 .col-md-4:after, .group2 .col-md-3:after{right:-10px;}
+	.group2 .col-md-3.form-group:after{right:-20px;}
+	.group3 small{padding:20px 10px;}
+	.modal_detail .modal-dialog{width:960px;}
+}
+
+@media only screen and (max-width:991px) {
+	.nav-tabs {display: block !important;}
+	.footer_top .col-md-4, .footer_top .col-md-2, .footer_top .col-md-2.footer_nav, .detail_inner, .history_detail{padding-left:15px;}
+	.detail_inner, .history_detail{border-left:none;}
+	.pad_manage{padding-right:15px; margin-bottom:20px;}
+	.footer_top h1, .modal-order .modal-body h4, .social_log ul li:last-child{margin-top:20px;}
+	.footer_top, .social_log center{padding-top:10px;}
+	.cr_box mark span{font-size:24px;}
+	.cr_box mark{font-size:16px;}
+	.footer_top ul li a, .cr_box h5{font-size:13px;}
+	.bids_sec .product_list  img, .complete_auc .item figure img{/*width:100%;*/}
+	.filter_banner form .input-group{margin-bottom:15px;}
+	.filter_banner form{padding-bottom:0;}
+	.buy_credit{padding-bottom:30px;}
+	.stickyheader .col-lg-7, .logged_header .social_head{display:none;}
+	.stickyheader .sticky_logo img{margin-top:5px;}
+	a.btn_abs{min-width:180px; font-size:11px !important;}
+	a.btn_abs .arrow{margin-right:10px;}
+	.quick_nav ul li a, .quick_nav ul li:first-child{padding:20px 20px;}
+	.winner_list img, .group2 .form-control, .buy_credit .btn_sec button, .group3 small{width:100%;}
+	.group3 small{max-width:100%;}
+	.detail_inner h1{border-top:1px solid #ddd;}
+	.bid_pramotion ul li{padding:30px 15px;}
+	.detail_inner .button_sec{padding-left:0;}
+	.disc_inner h3:first-child{margin-top:0;}
+	.sprite2 a{margin-left:10px;}
+	.social_log ul li:last-child{margin-left:0;}
+	.modal-order .modal-dialog{width:auto;}
+	.exit_user .button_sec button, .social_log ul li{width:100%;}
+	.social_log ul li{display:block;}
+	.social_log ul li a i{float:left;}
+	.input-group-btn:last-child>.ui_slider{padding:11px 12px 2px 6px;}
+	#slider-range{width:58%;}
+	#txt{font-size:10px !important;}
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html 			.ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{width:25px !important;}
+	.live_auction .product_list img, .winner_list img, .complete_auc .item img, .bids_sec .product_list  img{/*max-height:260px;*/}
+	.history_inner .col-md-5 ol{padding:21px 20px;}
+	.winner_info ol:hover{background-position:140px;}
+	.history_inner ul li span:first-child{width:79.3%;}
+	.history_inner ul li span:last-child{width:20%;}
+	.select_sec select{width:31.2%;}
+	.sprite2, .trans_tbl .table>tbody>tr>td span{float:none !important;}
+	.trans_tbl .table>tbody>tr>td span{margin-top:5px; display:inline-block;}
+	.group2 .col-md-4:after, .group2 .col-md-3:after{display:none;}
+	.modal_detail .modal-dialog{width:720px;}
+	.product_detail .slider_group .item{height:300px;}
+	.product_detail .slider_group .item img{max-height:290px;}
+	
+	.SocialL{ padding:15px 15px 0 30px;}
+	
+	li.user_head a.dropdown-toggle{ border-radius:4px;}
+	.user_box_head>ul>li{ width:100%;}
+	.user_box_head>ul>li:last-child{ display:none;}
+	.navigation .navbar-nav>li a{padding:0 0 0 8px; font-size:11px;}
+	header a.logo img {    max-height: 30px;}
+	.login-sec-area a{ padding:5px 10px !important; font-size:12px;}
+	}
+
+
+@media only screen and (max-width:768px) {
+	.nav-tabs {display: block !important;}
+	.slider_group .owl-buttons{top:-100px !important;}
+	.pad_manage .slider_group .owl-buttons{top:-160px !important;}
+	.disc_inner h3{font-size:16px;}
+	.ac_form h3{font-size:13px !important;}
+	.sec_b a i{box-shadow:none;}
+	.modal-order .modal-body h3:first-child{margin-top:0px;}
+	.modal-order .modal-body{padding:20px 15px;}
+	.modal-order .modal-header{padding:15px 15px;}
+	.header-right{ margin-top:-108px;}
+	.pad_manage{ border-right:none!important;}
+}
+
+
+@media only screen and (max-width:767px) {
+	.nav-tabs {display: block !important;}
+	.navbar-toggle .icon-bar{background:#fff; width: 30px; height:3px; transition: all 0.5s;}
+	.navbar-toggle.collapsed .icon-bar.top-bar {transform: rotate(0); -moz-transform:rotate(0); -webkit-transform:rotate(0); -o-transform:rotate(0); -ms-transform:rotate(0); } 
+	.navbar-toggle.collapsed .icon-bar.middle-bar{opacity: 1;}
+	.navbar-toggle.collapsed .icon-bar.bottom-bar {transform: rotate(0); -moz-transform:rotate(0); -webkit-transform:rotate(0); -o-transform:rotate(0); -ms-transform:rotate(0);}
+	.navbar-toggle .icon-bar.top-bar {transform: rotate(45deg); -moz-transform:rotate(45deg);  -webkit-transform:rotate(45deg);  -o-transform:rotate(45deg);  -ms-transform:rotate(45deg);  transform-origin: 10% 90%; -moz-transform-origin: 10% 90%;  -ms-transform-origin: 10% 90%; -o-transform-origin: 10% 90%; -webkit-transform-origin: 10% 90%;}
+	.navbar-toggle .icon-bar.middle-bar {opacity: 0;}
+	.navbar-toggle .icon-bar.bottom-bar {transform: rotate(-45deg); -moz-transform:rotate(-45deg);  -webkit-transform:rotate(-45deg);  -o-transform:rotate(-45deg);  -ms-transform:rotate(-45deg); transform-origin: 20% 90%; -moz-transform-origin: 20% 90%;  -ms-transform-origin: 20% 90%; -o-transform-origin: 20% 90%; -webkit-transform-origin: 20% 90%;}
+	.navigation .navbar-nav>li a{ line-height:34px; font-size:14px;}
+	.navigation .navbar-nav>li{padding-left:15px; border-bottom:1px solid #759841}
+	.navigation .navbar-nav{ margin:0;}
+	.navigation .navbar-nav>li.active a, .navigation .navbar-nav>li:hover a {    color: #ffffff !important;}
+	.navigation .navbar-collapse{padding-left:15px; padding-right:15px;}
+	.navigation .navbar-nav>li:before, .navigation .navbar-nav>li:last-child:after{background:none;}
+	.navigation .navbar-collapse {position: absolute; width: 100%; background: #88B04B; z-index: 99; padding:0; margin-top:5px;}
+	.quick_nav ul li.active a:before{top:78%; right:48%;}
+	.dtl_ttl h1{text-align:left !important; margin-top:5px;}
+	.breadcrumb{padding-top:0; padding-left:0; margin-bottom:10px;}
+	.dtl_info{padding-left:15px; padding-right:15px;}
+	.dtl_info h2{padding:15px 0px 15px;}
+	.dtl_info .disc_inner{padding:15px 0px 15px;}
+	.margin_manage{margin-left:0; margin-right:0;}
+	.row_aa, .row_bb{padding-left:0; padding-right:0;}
+	.row_bb{background:none;}
+	.quick_nav{ padding:0; display: none;}
+	.dtl_info .disc_inner{min-height:auto;}
+	.modal-order .modal-body summary{padding:13px 15px;}
+	h3.nav_toggle_ttl{display:inline-block; position:relative;}
+	.select-sec select{width:31.6%;}
+	.history_inner ul li span:first-child{width:75.4%;}
+	.history_inner ul li span:last-child{width:23%;}
+	.trans_tbl .table>tbody>tr>td span{float:right !important;}
+	.table-responsive{border:none;}
+	.modal_detail .modal-dialog{width:auto !important;}
+	header{ height:110px;}
+	.myAcc {    border: none;    margin-left: -15px;}
+	
+	.navbar-toggle{    position: absolute;    top: -50px;    right: 0;    font-size: 25px;    color: #ff632f;}
+	header a.logo{ margin-top:0;}
+	header a.logo img{ max-height:30px;}
+	header.sticky .user_info{ display:none;}
+	.footer_bottom .col-md-6{ text-align:center;}
+	.footer_bottom {    padding: 15px 0px;}
+	.footer_bottom .col-md-6 p{ margin:0;}
+	.payment-bg-sec ul li a{ margin:5px 0;}
+	.headline h3{ font-size:30px;}
+	.reg_inner{ margin-top:0;}
+	.exit_user form, .new_user .gray_box{ padding:20px 0;}
+	
+	.user_info{ margin-top:10px;}
+	li.user_head a.dropdown-toggle{ border-radius:4px 0 0 4px;}
+	.user_box_head>ul>li{ width:30%;}
+	.user_box_head>ul>li:last-child{ display:block;}
+
+}
+
+@media only screen and (max-width:736px) {
+	.nav-tabs {display: block !important;}
+	.slider-caption h2, .filter_banner h2{padding:10px 30px;}
+	.gray_box summary p:last-child{font-size:18px;}
+	.gray_box summary{font-size:16px;}
+	.reg_inner h2{font-size:14px;}
+	.slider-caption h2, .slider-caption a.btn-black{font-size:12px;}
+	time .bid_timer{font-size:18px; min-height:60px; width:300px;}
+	time h4.bid_timer em{font-size:9px; margin-bottom:5px;}
+	.slider-caption a.btn-black{line-height:32px; padding-right:20px;}
+	.slider-caption a.btn-black .arrow{height:32px; margin-right:15px;}
+	.slider_group .owl-theme .owl-controls .owl-page span.owl-numbers{padding:1px 5px; font-size:11px;}
+	.slider_group .owl-theme .owl-controls .owl-buttons .owl-next:before, .slider_group .owl-theme .owl-controls .owl-buttons .owl-prev:before{font-size:24px !important;}
+	.time_caption{margin-top:-40px;}
+	.social_log{margin-top:5px;}
+	.social_log{margin-bottom:15px;}
+	#slider-range{width:54%;}
+
+	
+}
+@media only screen and (max-width:667px) {
+	.nav-tabs {display: block !important;}
+	.mid-part{padding-bottom:1em;}
+	.footer-fix{position:relative; left:auto; bottom:auto;}
+	.footer_top .col-md-4, .footer_top .col-md-2, .footer_top .col-md-2.footer_nav, .filter_banner form .col-md-3, .filter_banner form .col-md-2, .filter_banner form .col-md-5{display:block; width:100%;}
+	.bids_sec .owl-theme .owl-controls{top:-24%;}
+	.footer_bottom p{margin-top:0;}
+	.bids_sec .product_list .item .favourite, .complete_auc .item .favourite{right:15px; top:5px;}
+	.dtl_info h2, .disc_inner h3, .description h2, .bid_history h2{font-size:14px;}
+	.disc_inner article{line-height:20px;}
+	.modal-order .modal-body time{padding-left:5px;}
+	.input-group-addon img{max-width:20px;}
+	#slider-range, .signup_sec button{width:72%;}
+	.form_field, .form_btm{padding:20px !important;}
+	.form_field{padding-bottom:0 !important;}
+	.winner_info ol:hover{background-position:110px;}
+	.trans_tbl .table>tbody>tr>td span{float:none !important;}
+}
+
+@media only screen and (max-width:600px) {
+	.nav-tabs {display: block !important;}
+	time .bid_timer{width:272px;}
+	.slider-caption h2, .filter_banner h2{padding:7px 15px;}
+	.complete_auc a.title{font-size:13px;}
+	.slider-caption h2, .slider-caption a.btn-black{font-size:11px;}
+	.logged_header .header_right, .logged_header .user_info{float:none !important; margin-left:auto; margin-right:auto;}
+	.logged_header a.logo{margin-left:auto; margin-right:auto; width:100%; text-align:center;}
+	 .user_info ol li.dropdown ul{left:0; right:auto;}
+	 .user_info ol li.dropdown ul:after{right:auto; left:10px;}
+	 table.display thead > tr> th{padding:8px 9px;}
+	  .detail_inner form p{font-size:9px;}
+	  .modal-order .modal-body big{padding-left:5px;}
+	  .exit_user{padding-right:15px;}
+	  .new_user{padding-left:15px;}
+	  .new_user .gray_box{ border-left:none; min-height:inherit;}
+	  .gray_box summary, .new_user{padding-top:15px;}
+	  .new_user h2{background:#eee; border-top:1px solid #dedede;}
+	  .exit_user, .new_user{clear:both;}
+	  .complete_auc .item{min-height:430px;}
+	  .winner_list .item{min-height:460px;}
+	  .live_auction .product_list img, .bids_sec .product_list  img, .live_auction .product_list .item{/*max-height:inherit;*/}
+	  .live_auction .product_list .item{min-height:inherit;}
+	  .complete_auc hgroup ul li{margin-right:9px;}
+}
+
+@media only screen and (max-width:568px) {
+	.nav-tabs {display: block !important;}
+	.slider_group .owl-buttons{top:-80px !important;}
+	.detail_inner form p{font-size:10px;}
+	.bid_pramotion li:first-child cite, .ac_sub_ttl, .cr_box h5{font-size:12px;}
+	.dtl_info h2, .reg_inner h2{font-size:13px;}
+	.bids_sec h1, .dtl_ttl h1, .bid_pramotion cite, .modal-title, .bids_sec .product_list .item a{font-size:14px;}
+	.bids_sec .owl-pagination{display:none;}
+	.bids_sec .owl-buttons{display:inline-block;}
+	.bids_sec .owl-buttons .owl-next:before {font-family: "FontAwesome" !important; content: '\f138'; font-size: 24px !important; color: #ef1920;}
+	.bids_sec .owl-buttons .owl-prev:before {font-family: "FontAwesome" !important; content: '\f137'; font-size: 24px !important; color: #ef1920;}
+	.bids_sec .owl-buttons div{background:none !important; margin:0 !important; padding:0px 5px !important;}
+	.bids_sec .owl-theme .owl-controls{top:-28%;}
+	table.display tbody td{padding:4px 7px;}
+	.modal-order .modal-body .col-md-8, .modal-order .modal-body .col-md-4{display:block; width:100%;}
+	.modal-order .modal-body .col-md-4{text-align:left;}
+	.modal-order .modal-body summary{margin-top:15px;}
+	.btn_order a{min-width:120px; width:auto;}
+	.btn_order{padding-left:15px;}
+	.select-sec select{width:31.2%;}
+	.complete_auc hgroup ul li{margin-right:1px;}
+	.complete_auc .item{min-height:415px;}
+	.winner_info ol li a img{min-height:82px;}
+	.table_res.table-responsive table{margin-top:0px;}
+
+}
+
+@media only screen and (max-width:530px) {
+	.nav-tabs {display: block !important;}
+	header .col-md-3, header .col-md-9, .header_right, .detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6, .winner_list .col-xs-6, .complete_auc .col-md-4{display:block; width:100%;}
+	.header_right, .guest_right{float:none !important;}
+	ul.social_head, .guest_right{margin-top:0;}
+	p.welcome_note, .how_work cite{margin-top:10px;}
+	ul.social_head, p.welcome_note, .disc_inner ul{margin-bottom:0;}
+	.detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6{padding-right:15px;}
+	.slider_group .owl-pagination, .stickyheader{display:none;}
+	.slider-caption{bottom:5%;}
+	.logged_header .header_right{text-align:left;}
+	.bid_pramotion ul li{padding:15px 10px;}
+	.bid_pramotion span{font-size:11px;}
+	.bid_pramotion li:first-child cite{font-size:10px;}
+	.bid_pramotion span{ font-family:'OpenSans-Semibold';}
+	.bid_pramotion span em{font-size:10px; font-family:'OpenSans-Regular';}
+	.bid_pramotion ul li{background-size:contain;}
+	.bid_history table{min-width:600px; margin-left:20px;}
+	table.display>tbody>tr, table.display>thead>tr, .signup_sec button{width:97%;}
+	ul.social_head{float:none !important;}
+	.winner_list hgroup h5{min-height:inherit;}
+	.select-sec select{width:31%;}
+	.live_auction .product_list img, .winner_list img, .complete_auc .item img, .bids_sec .product_list  img{/*max-height:inherit;*/}
+	.live_auction .product_list figure, .winner_list figure, .complete_auc .item figure, .bids_sec .product_list figure, .winner_list .item, .complete_auc .item{min-height:inherit;}
+	.table_res.table-responsive table{margin-left:2px;}
+	.live_auction .product_list .col-lg-3, .logged_header .col-xs-4, .logged_header .col-xs-8, .logged_header .header_right, .exit_user, .new_user, .live_auction .product_list .col-xs-6{display:block; width:100%;}
+	.history_inner .col-xs-5, .history_inner .col-xs-7{ width:100%; padding:0 15px;}
+} 
+
+@media only screen and (max-width:481px) {
+	.nav-tabs {display: block !important;}
+	.form_btm .col-md-6, .signup_sec button{display:block; width:100%;}
+	.main_ttl{margin-top:0;}
+	.history_inner ul li span:last-child{border:0;}
+	time .bid_timer{min-height:50px;}
+	time h4.bid_timer em{padding-top:5px;}
+	time .bid_timer{width:245px;}
+	.slider-caption h2, .filter_banner h2{padding:5px 20px; font-size:10px;}
+	.bids_sec .owl-theme .owl-controls{top:-20%;}
+	.how_work .owl-theme .owl-controls{top:-32% !important;}
+	.bids_sec h1, .dtl_ttl h1{font-size:14px;}
+	ul.social_head{margin-right:5px;}
+	.breadcrumb{margin-bottom:0;}
+	.form_btm .check{margin-bottom:15px; text-align:left;}
+	.quick_nav ul li a, .quick_nav ul li:first-child{padding:10px 15px;}
+	.quick_nav ul li.active a:before{top:64%;}
+	.row_b .left_sec{display:block; width:100%;}
+	.row_b .right_sec{display:block; min-width:160px; margin-left:auto; margin-right:auto; float:none; text-align:center;}
+	.row_b .left_sec{border-right:none;}
+	#slider-range{width:65%;}
+	.select-sec select{width:30.7%;}
+	.winner_info ol li:first-child{padding-left:30px;}
+	.winner_info ol:hover{background-position:90px;}
+	.select_sec select{width:31%;}
+
+}
+@media only screen and (max-width:414px) {
+	.nav-tabs {display: block !important;}
+	.bids_sec .owl-theme .owl-controls{top:-24%;}
+	.banner_sec{display:none;}
+	.footer_top ul li a, .reg_inner h2, .complete_auc a.title{font-size:12px;}
+	.ac_form h3{font-size:11px !important;}
+	.modal-title{font-size:14px;}
+	.sec_b ul li a i, .sec_b a i.fa-google-plus{font-size:14px !important; height:30px; width:30px;}
+	.social_log center{font-size:18px;}
+	.social_head li a{font-size:24px;}
+	.social_head li a img{max-height:24px;}
+	.footer_bottom, .footer_top{padding:15px 0px;}
+	.footer_top, .dtl_info .disc_inner.buy_credit{padding-top:0;}
+	.navbar-toggle{padding:4px 10px;}
+	.filter_banner{padding-top:20px; padding-bottom:60px;}
+	.bids_sec .owl-buttons, .how_work .owl-theme .owl-controls{right:0px !important;}
+	ol.user_head li:last-child i{padding-left:5px; padding-right:5px;}
+	.manage_pad{padding-bottom:20px;}
+	.row_a .left_sec, .row_a .right_sec, .detail_inner form, .pad_manage .banner_sec, .history_inner .col-md-7, .history_inner .col-md-5 {display:block; width:100%;}
+	.row_a .right_sec h2, .row_a .right_sec h3, .detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6{display:inline-block; position:relative;}
+	.detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6{width:50%;}
+	.row_a .right_sec h2{padding-right:10px;}
+	.detail_inner form .form_inner2{border-left:none;}
+	.bid_pramotion ul li{width:48%; border-right:none; margin:1px;}
+	.pad_manage .slider_group .owl-buttons{top:-110px !important;}
+	.sec_d .cash_in{padding-left:10px;}
+	.history_inner .col-md-7{padding-left:15px;}
+	.winner_info ol li:first-child{padding-left:60px;}
+	.history_inner .col-md-5{padding-right:15px;}
+	.winner_info ol:hover{background-position:130px;}
+	#slider-range{width:58%;}
+	.select-sec select, .select_sec select{width:30.2%;}
+	.history_inner .col-md-5 ol{padding:15px 20px;}
+	.sprite2 a{margin-left:5px;}
+	.payment-bg-sec ul li{ width:10%;}
+	.payment-bg-sec{ padding:10px 0;}
+
+}
+@media only screen and (max-width:384px) {
+	.nav-tabs {display: block !important; clear: both;}
+	.bids_sec h1, .disc_inner ul li, .disc_inner, .check{padding-bottom:10px;}
+	.description h2, .bid_history h2, .modal-order .modal-body h3, .modal-title, .bids_sec h1, .dtl_ttl h1{font-size:13px;}
+	.bids_sec .product_list .item .price, .product_detail .price, .bids_sec .product_list .item .favourite, .complete_auc .item .favourite, .buy_credit big{font-size:14px;}
+	.winner_list b em, .complete_auc b em{font-size:16px;}
+	.bids_sec .owl-buttons .owl-prev:before, .bids_sec .owl-buttons .owl-next:before{font-size:18px !important;}
+	.bids_sec .product_list .item .price, .product_detail .price{height:35px; width:70px; line-height:35px;}
+	ol.user_head li:last-child cite{display:inline-block;}
+	ol.user_head li:last-child small{display:none;}
+	ol.ol_2 li, ol.ol_3 li{padding-left:0; width:31%;}
+	ol.ol_2 li:last-child, ol.ol_3 li:last-child{width:34%;}
+	.sec_d .cash_in{padding-left:2px;}
+	.disc_inner article, .disc_inner ul li{line-height:18px;}
+	.dtl_ttl{padding-top:15px;}
+	#slider-range{width:52%;}
+	.select-sec select{width:29.9%;}
+	.history_inner ul li span:last-child{width:26%;}
+	.history_inner ul li span:first-child{width:72.4%;}
+	.sprite2 .visa > a, .sprite2 .master-card > a, .sprite2 .mastro > a, .sprite2 .paypal > a{background-size:cover;}
+	.sprite2 .visa > a{width:60px;}
+	.sprite2 .master-card > a{width:42px; background-position:-74px;}
+	.sprite2 .mastro > a{background-position:-125px; width:48px;}
+	.sprite2 .paypal > a{width:72px;}
+	.sprite2, .group2, .buy_credit big{margin-top:0px;}
+	.footer_top .footer_nav, .sec_d .cash_in, .right_info, .bid_history{ width:100%;}
+}
+
+@media only screen and (max-width:320px) {
+	.nav-tabs {display: block !important; clear: both;}
+	.footer_top .col-md-4.footer_nav .col-md-6, .toggle_content form, .exit_user .col-xs-6, .check, .select-sec select, .history_inner ul li span:first-child, .history_inner ul li span:last-child, .select_sec select{display:block; width:100%;}
+	.select-sec select.select-mid, .history_inner ul li, .select_sec select.select-mid{margin:10px 0px;}
+	.footer_nav ul{margin-bottom:0;}
+	.logged_header .user_info{margin-top:15px;}
+	.gray_box summary p:last-child{font-size:16px;}
+	.bids_sec .product_list .item a, .detail_inner h1, .history_detail h1, .gray_box summary, .reg_inner h2, .text-danger{font-size:12px;}
+	.group3 small{font-size:11px;}
+	.bids_sec .owl-theme .owl-controls{top:-26%;}
+	.bids_sec{padding:20px 0px;}
+	.gray_box summary, .history_inner ul li span:last-child{padding-top:0;}
+	.navigation .navbar-nav{padding-left:15px;}
+	.history_inner ul li span:last-child{padding-left:20px;}
+	.modal-order .modal-body big{padding-left:0px; margin-top:5px;}
+	.navigation .navbar-nav, ol.user_head span{margin-right:0;}
+	ol.user_head li a.dropdown-toggle{padding:6px 10px;}
+	ol.user_head span{margin-left:3px; padding:1px 3px; border-radius:3px;}
+	ol.ol_2 li span, ol.ol_3 li span{font-family:'OpenSans-Semibold';}
+	.pad_manage .slider_group .owl-buttons{top:-80px !important;}
+	.bid_pramotion ul li, .modal-order .modal-body summary, .group3 small{padding:10px 10px;}
+	.reg_inner h2{padding:15px;}
+	.right_info .sec_a, .right_info .sec_b, .right_info .sec_c, .right_info .sec_d{width:50%;}
+	.right_info .sec_b{width:85%;}
+	.right_info .sec_a{padding-top:20px; width:15%;}
+	.btn_order a{min-width:100px;}
+	.reg_inner .exit_user h2:before, .signup_sec h2:before{top:auto; bottom:-5px;}
+	.ui_slider label span, .slider-caption.time_caption{display:none;}
+	.ui_slider label, #slider-range{width:90%;}
+	.ui_slider label{padding-left:10px;}
+	#slider-range{margin-bottom:10px;}
+	.form_field, .form_btm, .winner_list hgroup, .winner_list b, .complete_auc hgroup, .complete_auc b{padding:15px !important;}
+	.form_field, .complete_auc b{padding-bottom:0 !important;}
+	.main_ttl small, .main_ttl h1{text-align:left !important;}
+	.winner_info ol:hover{background-position:100px;}
+	.check_box{min-height:34px; height:auto;}
+	.check_box em{text-align:right;}
+	.dtl_info h2{padding-left:0;}
+	.quick_nav button {margin: 20px 15px 20px 15px;}
+	.quick_nav button .arrow{margin-right:10px;}
+}
+
+@media only screen and (max-width:292px) {
+	.nav-tabs {display: block !important; clear: both;}
+	.footer_bottom .col-md-6, .detail_inner form .form_inner .col-md-6, .detail_inner form .form_inner2 .col-md-6, .btn_order a, .btn_order button, .winner_info ol li:first-child, .winner_info ol li:last-child{display:block; width:100% !important;}
+	.btn_order a i{width:20%;}
+	.footer_bottom p, .footer_top h1, .btn_order a{margin-bottom:10px;}
+	.btn_order a strong{padding:13px;}
+	.footer_top h1{padding-bottom:10px;}
+	.footer_bottom a.pull-right{float:none !important; margin-left:auto; margin-right:auto; text-align:center;}
+	.bids_sec .owl-theme .owl-controls{top:auto !important; bottom:-30px; left:auto; right:auto; display:block; width:100%; text-align:center;}
+	.bids_sec .owl-slider, .winner_info ol li:first-child{margin-bottom:20px !important;}
+	.navbar-toggle{margin-right:0;}
+	header a.logo{margin-bottom:0;}
+	.navbar-toggle .icon-bar{width: 22px; height:2px; transition: all 0.5s;}
+	.navbar-toggle .icon-bar.bottom-bar {transform-origin: 10% 90%; -moz-transform-origin: 10% 90%;  -ms-transform-origin: 10% 90%; -o-transform-origin: 10% 90%; -webkit-transform-origin: 10% 90%;}
+	.slider-caption h2 span{display:block;}
+	time .bid_timer{width:200px;}
+	.live_auction .product_list .item button.btn-black .arrow, .button_sec  button .arrow, .btn_sec button .arrow{height:30px; width:30px; margin-right:5px;}
+	.live_auction .product_list .item button.btn-black, .button_sec  button, .btn_sec button, a.btn_abs{line-height:30px; font-size:11px; padding-right:10px;}
+	.lub_check .fa-arrow-circle-down, .lub_check small, .lub_check cite, .lub_check span, .filter_banner{display:none !important;}
+	ol.ol_2 li span{display:block;}
+	.row_b .left_sec summary{background:none;}
+	.row_b .left_sec summary{padding-left:0px;}
+	 .winner_info ol{padding-right:15px;}
+	.bid_pramotion ul li{padding:5px 5px;}
+	.pad_manage .slider_group .owl-buttons{top:-60px !important;}
+	.btn_order button{float:none !important;}
+	h3.nav_toggle_ttl, .cr_box mark span{font-size:18px;}
+	.social_log ul li a i, .gray_box summary p:last-child{font-size:14px;}
+	.modal-order .modal-body cite span, .modal-order .modal-body big, .modal-order .modal-body time, .modal-order .modal-body cite, .text-danger, .winner_list span, .complete_auc span, .complete_auc a.title, .cr_box mark,.buy_credit big{font-size:11px;}
+	.btn_order button b, .social_log ul li a, .signup_sec .check, .quick_nav button{font-size:10px;}
+	.modal-order .modal-body summary p{font-size:9px;}
+	.btn_order button span{padding-bottom:5px;}
+	.btn_order button .arrow{height:36px; width:36px;}
+	.complete_auc hgroup ul{margin-left:auto; margin-right:auto; text-align:center;}
+	.complete_auc hgroup ul li{margin-right:0px; width:48%;}
+	.complete_auc hgroup ul li:last-child, .winner_info ol li:first-child{margin-top:15px; width:100%;}
+	.winner_info ol li:last-child{border-left:none; text-align:center;}
+	.winner_info ol li a img{margin-right:0px;}
+	.winner_info ol li a img{max-height:inherit;}
+	.winner_info ol{background-position:left top;}
+	.winner_info ol:hover{background-position:right 15px top;}
+	 .cr_box mark{padding:5px 0px;}
+	 .cr_box{padding: 15px 15px 15px 15px;}
+}
+
+@media only screen and (max-width:240px) {
+	.cr_box h5, .cr_box mark{width:100%; display:block;}
+	.cr_box mark{margin-top:10px;}
+	.winner_list span, .complete_auc b span{width:56%;}
+	.gray_box summary em{display:block;}
+	.bids_sec .product_list .item a{font-size:11px;}
+	.bids_sec .product_list .item .favourite, .complete_auc .item .favourite{right:10px;}
+	time .bid_timer{width:160px;}
+	.product_list .item button.btn-black span em, .social_log ul li a span{display:none;}
+}
